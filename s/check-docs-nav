@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
+# SPDX-License-Identifier: CC-BY-SA-4.0
+#
+# Fail when a page under docs/ is missing from the nav in mkdocs.yml, or the
+# nav points at a page that does not exist. Zensical builds orphaned pages
+# without complaint, so this is the only thing that catches them.
+#
+# Dependency-free: nav entries are the only *.md paths in mkdocs.yml.
+
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+
+# Pages deliberately left out of the nav, one per line as "path # reason".
+EXCEPTIONS=(
+)
+
+status=0
+
+nav_pages=$(grep -oE '[A-Za-z0-9_./-]+\.md' mkdocs.yml | sort -u)
+doc_pages=$(cd docs && find . -name '*.md' -not -path './assets/*' | sed 's|^\./||' | sort -u)
+
+exception_pages=""
+for entry in "${EXCEPTIONS[@]}"; do
+  page="${entry%% *}"
+  exception_pages+="$page"$'\n'
+  if [[ ! -f "docs/$page" ]]; then
+    echo "nav exception names a page that no longer exists: $page" >&2
+    status=1
+  fi
+done
+
+while IFS= read -r page; do
+  [[ -z "$page" ]] && continue
+  if [[ ! -f "docs/$page" ]]; then
+    echo "nav points at a missing page: docs/$page" >&2
+    status=1
+  fi
+done <<< "$nav_pages"
+
+while IFS= read -r page; do
+  [[ -z "$page" ]] && continue
+  if ! grep -qxF "$page" <<< "$nav_pages" && ! grep -qxF "$page" <<< "$exception_pages"; then
+    echo "page is not in the nav: docs/$page" >&2
+    status=1
+  fi
+done <<< "$doc_pages"
+
+if [[ "$status" -eq 0 ]]; then
+  echo "nav OK: $(wc -l <<< "$nav_pages") pages"
+fi
+exit "$status"

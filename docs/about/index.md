@@ -1,0 +1,59 @@
+---
+description: About the Open Health Technology Foundation - what it is, what it is not, and where it stands today.
+---
+
+# About OHTF
+
+The Open Health Technology Foundation (OHTF) is a UK-based, internationally minded steward for small, reusable, open-source health technology components.
+
+Health software is full of small, critical pieces of logic: validating an NHS Number, working with SNOMED CT, applying the immunisation schedule, documenting clinical safety. Too often these are rewritten from scratch in every product, or live in one person's GitHub account until that person changes job. OHTF gives them a durable, neutral home that can hold assets, support maintainers, publish code openly and offer paid services, without turning shared infrastructure into a proprietary product.
+
+> Talk is cheap; show me the code.
+
+## What OHTF does
+
+- Accepts and stewards open-source health technology projects that have named maintainers and a clear public benefit.
+- Provides organisation-level governance, contribution terms, security reporting and project lifecycle practices.
+- Holds project assets, including domains and trademarks, where that protects a project's neutrality and continuity.
+- Publishes source code, build and deployment configuration, tests and documentation under open licences.
+- Offers paid hosting, support, implementation and training, without restricting anyone's rights in Foundation Projects.
+- Helps preserve useful public-benefit health software when its original organisational home can no longer look after it.
+
+## What OHTF is not
+
+- **Not a standards body.** HL7, SNOMED International and openEHR write specifications. OHTF looks after code that implements them.
+- **Not a product vendor.** OHTF does not sell an electronic patient record or a closed platform.
+- **Not a professional body.** Clinical and informatics professional bodies set professional standards. OHTF works alongside them.
+- **Not a substitute for clinical safety work.** A licence, a repository or a CIC does not make software safe. Clinical safety depends on the product and how it is deployed, and OHTF projects document that honestly.
+
+## Operating principles
+
+Open by default
+:   Foundation Project code, build and deployment configuration, tests and documentation stay publicly reusable under open licences. See the [open-source commitment](../governance/open-source-commitment.md).
+
+Public benefit, paid for by practical services
+:   OHTF can charge for hosting, support, implementation and training. That income sustains the shared infrastructure; it never encloses it.
+
+Clear stewardship
+:   Every project has named maintainers, a contribution path, a security contact and an explicit [lifecycle status](../governance/project-lifecycle.md).
+
+Clinical safety is part of engineering
+:   Safety evidence lives close to the code, in the same repository, issues and releases.
+
+Reproducible operations
+:   Infrastructure is described in version-controlled code, with a realistic self-hosting path where appropriate. Nothing depends on knowledge held by one person or one vendor's console.
+
+Small, useful, durable
+:   Working components and maintainable operations beat committees and strategy documents.
+
+## Where OHTF stands today
+
+OHTF is **preparing to incorporate** as **Open Health Technology Foundation CIC**, a UK community interest company limited by guarantee. A CIC has a statutory asset lock, can hold intellectual property and trademarks, can contract and employ people, and must operate for community benefit. OHTF's draft Articles of Association also entrench an open-source commitment for Foundation Projects.
+
+Until incorporation, OHTF operates as an open working group around [github.com/ohtf](https://github.com/ohtf). See [governance](../governance/index.md) for details.
+
+## Origins
+
+OHTF grew out of practical experience. An earlier shared home for the `nhs-number` library, in an organisation linked to a professional faculty, disappeared when that organisation closed. At the same time, contributors to open-source clinical libraries kept running into the same question from their employers: whose code is this, and what happens if something goes wrong? A named, neutral, community-owned organisation is a better answer to both problems than a collection of personal repositories.
+
+[Why OHTF, rather than an existing foundation?](why-ohtf.md)

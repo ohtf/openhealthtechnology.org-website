@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
+# SPDX-License-Identifier: CC-BY-SA-4.0
+#
+# Build the static site into site/, exactly as CI does.
+
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+
+if [[ -x .venv/bin/zensical ]]; then
+  ZENSICAL=.venv/bin/zensical
+else
+  ZENSICAL=zensical
+fi
+
+exec "$ZENSICAL" build --clean "$@"

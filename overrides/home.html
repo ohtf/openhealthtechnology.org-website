@@ -1,0 +1,64 @@
+{#-
+  SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+  Landing page template, after the Material for MkDocs home.html pattern:
+  the hero renders under the tabs, the sidebars are hidden, and the page's
+  own Markdown (docs/index.md) renders below the hero as normal content.
+
+  Hero copy lives in the `hero:` front matter of docs/index.md so it can be
+  edited without touching this template.
+-#}
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+  {% set hero = page.meta.hero %}
+  <section class="ohtf-hero" aria-labelledby="ohtf-hero-title">
+    <a id="__skip" tabindex="-1"></a>
+    <div class="md-grid">
+      <div class="ohtf-hero__inner">
+        <div class="ohtf-hero__content">
+          {% if hero.eyebrow %}
+            <p class="ohtf-hero__eyebrow">{{ hero.eyebrow }}</p>
+          {% endif %}
+          <h1 id="ohtf-hero-title">{{ hero.title }}</h1>
+          <p class="ohtf-hero__lead">{{ hero.lead }}</p>
+          <div class="ohtf-hero__actions">
+            {% for action in hero.actions %}
+              <a
+                href="{{ action.link | url }}"
+                class="md-button{% if loop.first %} md-button--primary{% endif %}"
+              >{{ action.label }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        <figure class="ohtf-hero__code">
+          <div class="ohtf-terminal" role="img" aria-label="{{ hero.code.alt | e }}">
+            <div class="ohtf-terminal__bar" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+<pre class="ohtf-terminal__body" aria-hidden="true"><code>{% for line in hero.code.lines %}{% if line.prompt %}<span class="ohtf-terminal__prompt">{{ line.prompt }} </span>{{ line.input }}{% else %}<span class="ohtf-terminal__out">{{ line.output }}</span>{% endif %}
+{% endfor %}</code></pre>
+          </div>
+          <figcaption>{{ hero.code.caption }}</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+{% endblock %}
+
+{#- No sidebars on the landing page. -#}
+{% block site_nav %}{% endblock %}
+
+{#- Same as base.html's container, minus the skip anchor (it sits in the hero
+    above) and with a hook class for the landing-page styles. -#}
+{% block container %}
+  <div class="md-content ohtf-home" data-md-component="content">
+    <article class="md-content__inner md-typeset">
+      {% block content %}
+        {% include "partials/content.html" %}
+      {% endblock %}
+    </article>
+  </div>
+{% endblock %}

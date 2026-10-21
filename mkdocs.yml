@@ -1,0 +1,87 @@
+site_name: Open Health Technology Foundation
+site_url: https://openhealthtechnology.org/
+site_description: A neutral home for small, reusable, open-source health technology components.
+site_author: Open Health Technology Foundation contributors
+
+repo_url: https://github.com/ohtf/openhealthtechnology.org-website
+repo_name: ohtf/openhealthtechnology.org-website
+edit_uri: edit/main/docs/
+
+copyright: >-
+  Open Health Technology Foundation is preparing to incorporate as a UK community interest company.<br>
+  Site content &copy; 2026 Open Health Technology Foundation contributors,
+  licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
+
+theme:
+  variant: modern
+  custom_dir: overrides
+  language: en
+  logo: assets/ohtf-mark.svg
+  favicon: assets/ohtf-mark.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - content.action.edit
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: lucide/moon
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: lucide/sun
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ohtf
+      name: OHTF on GitHub
+    - icon: lucide/mail
+      link: mailto:hello@openhealthtechnology.org
+      name: Email OHTF
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - About:
+      - about/index.md
+      - Why OHTF exists: about/why-ohtf.md
+  - Projects:
+      - projects/index.md
+      - Bring a project: projects/bring-a-project.md
+  - Services: services.md
+  - Governance:
+      - governance/index.md
+      - Open-source commitment: governance/open-source-commitment.md
+      - Project lifecycle: governance/project-lifecycle.md
+  - Community:
+      - community/index.md
+      - Code of conduct: community/code-of-conduct.md
+      - Developer Certificate of Origin: community/dco.md
+      - Security: community/security.md
+  - Contact: contact.md

@@ -1,0 +1,74 @@
+# Builds and deploys openhealthtechnology.org to GitHub Pages.
+#
+# Method: artifact-based deploy (actions/upload-pages-artifact +
+# actions/deploy-pages). The built site is handed straight to GitHub's Pages
+# servers as a workflow artifact - there is no `gh-pages` branch, no orphan
+# history, nothing in `git log --all` that did not come from a real commit.
+#
+# Repo prerequisites (one-off):
+#   - Settings -> Pages -> Source must be set to "GitHub Actions". If it is set
+#     to "Deploy from a branch", deploy-pages fails with "Get Pages site failed".
+#   - Settings -> Pages -> Custom domain: openhealthtechnology.org (matches
+#     docs/CNAME), with "Enforce HTTPS" ticked once the certificate is issued.
+#
+# Action SHAs were verified against each action's latest release on
+# 2026-10-21 and carry the matching `# vX.Y.Z` comment per house style.
+
+name: docs
+
+on:
+  push:
+    branches:
+      - main
+    # Only rebuild when something the site depends on has changed.
+    paths:
+      - "docs/**"
+      - "overrides/**"
+      - "mkdocs.yml"
+      - "requirements.txt"
+      - ".github/workflows/docs.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.x"
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - run: echo "cache_id=$(date --utc '+%V')" >> "$GITHUB_ENV"
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          key: zensical-${{ env.cache_id }}
+          path: ~/.cache
+          restore-keys: |
+            zensical-
+      - run: pip install -r requirements.txt
+      - run: zensical build --clean
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

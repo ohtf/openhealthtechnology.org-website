@@ -1,0 +1,327 @@
+/*
+ * SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
+ * SPDX-License-Identifier: CC-BY-SA-4.0
+ *
+ * OHTF palette and landing-page styles on top of the Zensical modern variant.
+ * Colour tokens live here only; change the brand by editing :root below.
+ */
+
+:root {
+  --ohtf-ink: #12303f;
+  --ohtf-ink-deep: #0d2430;
+  --ohtf-teal: #0b6e64;
+  --ohtf-mint: #7fd8cb;
+  --ohtf-mint-soft: #c9dde3;
+  --ohtf-sand: #f5f2ea;
+  --ohtf-amber: #e8b04a;
+}
+
+/* Zensical palette hooks for `primary: custom` / `accent: custom`. */
+[data-md-color-scheme="default"][data-md-color-primary="custom"] {
+  --md-primary-fg-color: var(--ohtf-ink);
+  --md-primary-fg-color--light: #2b4d5e;
+  --md-primary-fg-color--dark: var(--ohtf-ink-deep);
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+  --md-typeset-a-color: var(--ohtf-teal);
+}
+
+[data-md-color-scheme="default"][data-md-color-accent="custom"] {
+  --md-accent-fg-color: var(--ohtf-teal);
+  --md-accent-fg-color--transparent: rgba(11, 110, 100, 0.1);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: rgba(255, 255, 255, 0.7);
+}
+
+[data-md-color-scheme="slate"][data-md-color-primary="custom"] {
+  --md-primary-fg-color: var(--ohtf-ink);
+  --md-primary-fg-color--light: #2b4d5e;
+  --md-primary-fg-color--dark: var(--ohtf-ink-deep);
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+  --md-typeset-a-color: #5cc7b8;
+}
+
+[data-md-color-scheme="slate"][data-md-color-accent="custom"] {
+  --md-accent-fg-color: #5cc7b8;
+  --md-accent-fg-color--transparent: rgba(92, 199, 184, 0.12);
+  --md-accent-bg-color: var(--ohtf-ink-deep);
+  --md-accent-bg-color--light: rgba(13, 36, 48, 0.7);
+}
+
+/* ---------------------------------------------------------------------------
+ * Landing page (overrides/home.html)
+ * ------------------------------------------------------------------------ */
+
+/* The landing page has no sidebars (see home.html), so use a readable measure. */
+.md-content.ohtf-home {
+  max-width: none;
+}
+
+.ohtf-home .md-content__inner {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* The hero carries the page heading, so hide the Markdown H1 and the page
+   action buttons that sit beside it. */
+.ohtf-home .md-content__inner > h1,
+.ohtf-home .md-content__inner > .md-content__button {
+  display: none;
+}
+
+.ohtf-hero {
+  background-color: var(--ohtf-ink);
+  color: #ffffff;
+  /* A faint grid of component blocks, echoing the mark. Decorative only. */
+  background-image:
+    linear-gradient(rgba(127, 216, 203, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(127, 216, 203, 0.06) 1px, transparent 1px);
+  background-size: 2rem 2rem;
+}
+
+.ohtf-hero__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 3rem;
+  align-items: center;
+  padding: 3.5rem 0.8rem 3.75rem;
+}
+
+.ohtf-hero__eyebrow {
+  margin: 0 0 1rem;
+  color: var(--ohtf-mint);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ohtf-hero h1 {
+  margin: 0 0 1.25rem;
+  color: #ffffff;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.ohtf-hero__lead {
+  max-width: 34rem;
+  margin: 0 0 2rem;
+  color: var(--ohtf-mint-soft);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.ohtf-hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.ohtf-hero .md-button {
+  margin: 0;
+  min-height: 44px;
+  padding: 0.65rem 1.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0.3rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.ohtf-hero .md-button--primary {
+  border-color: var(--ohtf-mint);
+  background-color: var(--ohtf-mint);
+  color: var(--ohtf-ink-deep);
+}
+
+.ohtf-hero .md-button:hover,
+.ohtf-hero .md-button:focus-visible {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: var(--ohtf-ink-deep);
+}
+
+.ohtf-hero .md-button:focus-visible {
+  outline: 3px solid var(--ohtf-amber);
+  outline-offset: 2px;
+}
+
+.ohtf-hero__code {
+  margin: 0;
+}
+
+.ohtf-terminal {
+  overflow: hidden;
+  border: 1px solid rgba(127, 216, 203, 0.25);
+  border-radius: 0.5rem;
+  background-color: var(--ohtf-ink-deep);
+}
+
+.ohtf-terminal__bar {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid rgba(127, 216, 203, 0.15);
+}
+
+.ohtf-terminal__bar span {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: rgba(201, 221, 227, 0.3);
+}
+
+.ohtf-terminal__body {
+  margin: 0;
+  padding: 1rem 1.2rem 1.2rem;
+  overflow-x: auto;
+  color: #ffffff;
+  font-family: var(--md-code-font-family, monospace);
+  font-size: 0.72rem;
+  line-height: 1.7;
+}
+
+.ohtf-terminal__body code {
+  background: none;
+  color: inherit;
+  font-size: inherit;
+  padding: 0;
+}
+
+.ohtf-terminal__prompt {
+  color: var(--ohtf-mint);
+  user-select: none;
+}
+
+.ohtf-terminal__out {
+  color: var(--ohtf-amber);
+}
+
+.ohtf-hero__code figcaption {
+  margin-top: 0.75rem;
+  color: var(--ohtf-mint-soft);
+  font-size: 0.65rem;
+  text-align: left;
+}
+
+.ohtf-hero__code figcaption a {
+  color: var(--ohtf-mint);
+}
+
+@media screen and (max-width: 59.984375em) {
+  .ohtf-hero__inner {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+    padding: 2.25rem 0.8rem 2.5rem;
+  }
+
+  .ohtf-hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .ohtf-hero__lead {
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Keep the longest terminal line on screen at phone widths. */
+@media screen and (max-width: 29.984375em) {
+  .ohtf-terminal__body {
+    padding: 0.8rem 0.8rem 1rem;
+    font-size: 0.6rem;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+ * Landing page body sections (Markdown in docs/index.md)
+ * ------------------------------------------------------------------------ */
+
+.ohtf-home .md-typeset h2 {
+  margin-top: 2.5rem;
+  font-weight: 700;
+}
+
+/* Status strip directly under the hero. */
+.md-typeset .ohtf-status {
+  margin: 1.5rem 0 0;
+  padding: 0.9rem 1.1rem;
+  border-left: 4px solid var(--ohtf-amber);
+  background-color: var(--ohtf-sand);
+  color: var(--ohtf-ink);
+  font-size: 0.75rem;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .ohtf-status {
+  background-color: var(--md-code-bg-color);
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .ohtf-status p {
+  margin: 0;
+}
+
+/* Criteria list: two-column definition layout, not cards. */
+.md-typeset .ohtf-criteria {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.25rem 2.5rem;
+}
+
+.md-typeset .ohtf-criteria dl {
+  margin: 0;
+}
+
+.md-typeset .ohtf-criteria dt {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.md-typeset .ohtf-criteria dd {
+  margin: 0.25rem 0 0;
+  color: var(--md-default-fg-color--light);
+}
+
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .ohtf-criteria {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Numbered "how it works" steps. */
+.md-typeset ol.ohtf-steps {
+  counter-reset: ohtf-step;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.md-typeset ol.ohtf-steps > li {
+  position: relative;
+  min-height: 1.8rem;
+  margin: 0 0 1rem;
+  padding-left: 2.8rem;
+  counter-increment: ohtf-step;
+}
+
+.md-typeset ol.ohtf-steps > li::before {
+  content: counter(ohtf-step);
+  position: absolute;
+  top: -0.1rem;
+  left: 0;
+  display: grid;
+  width: 1.8rem;
+  height: 1.8rem;
+  place-items: center;
+  border-radius: 50%;
+  background-color: var(--ohtf-ink);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+[data-md-color-scheme="slate"] .md-typeset ol.ohtf-steps > li::before {
+  background-color: #5cc7b8;
+  color: var(--ohtf-ink-deep);
+}
