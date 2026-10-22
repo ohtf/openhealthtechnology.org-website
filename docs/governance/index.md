@@ -4,7 +4,7 @@ description: How the Open Health Technology Foundation is governed, its legal fo
 
 # Governance
 
-OHTF's governance is meant to be small, clear and public. This section records how decisions are made, what legal form OHTF is taking, and the commitments that bind it.
+OHTF's governance is meant to be small, clear and public. Day-to-day project decisions are made by the people doing the work, within explicit, public rules: see [do-ocracy](do-ocracy.md). This section records how decisions are made, what legal form OHTF is taking, and the commitments that bind it.
 
 ## Current status
 
@@ -50,6 +50,7 @@ OHTF may later offer an annual public **OHTF Membership** for individuals and or
 
 | Policy | Status |
 | --- | --- |
+| [Do-ocracy](do-ocracy.md): how decisions are made in projects | Draft |
 | [Open-source commitment](open-source-commitment.md) | Draft, entrenched in the Articles |
 | [Project lifecycle](project-lifecycle.md) | Draft |
 | [Code of conduct](../community/code-of-conduct.md) | Adopted for OHTF spaces |

@@ -4,7 +4,7 @@ description: How to contribute to Open Health Technology Foundation projects.
 
 # Contributing
 
-OHTF projects are built in the open, by clinicians, developers and anyone else who wants health software to be better. You do not need permission to start: find a project, read its README, and open an issue or pull request.
+OHTF projects are built in the open, by clinicians, developers and anyone else who wants health software to be better. You do not need permission to start: find a project, read its README, and open an issue or pull request. OHTF projects are a [do-ocracy](../governance/do-ocracy.md): the people who do the work decide how it is done.
 
 ## Ways to help
 
