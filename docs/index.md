@@ -1,18 +1,18 @@
 ---
 template: home.html
 title: Open Health Technology Foundation
-description: A neutral, long-term home for small, reusable, open-source health technology components.
+description: A neutral, long-term home for open-source health technology.
 hide:
   - navigation
   - toc
 hero:
   eyebrow: Open Health Technology Foundation
-  title: A neutral home for small, reusable, open-source health software
+  title: A neutral, long-term home for open-source health software
   lead: >-
-    OHTF stewards the clinical libraries and shared tools that health software
-    is built from: NHS Number validation, terminology tooling, clinical
-    calculations, safety documentation. Open code, named maintainers, and an
-    organisation that outlasts any one employer.
+    OHTF stewards the open-source software that health care runs on, from
+    NHS Number and SNOMED CT tooling and clinical calculators to Git-based
+    health records. Open code, named maintainers, and an organisation that
+    outlasts any one employer.
   actions:
     - label: See the projects
       link: projects/
@@ -46,7 +46,7 @@ hero:
 
 ## The gap OHTF fills
 
-Health technology has standards bodies, professional bodies, policy organisations and large general-purpose software foundations. None of them is a practical home for the small, independently useful libraries that working developers and clinicians actually depend on. Those components are too small for big institutions to notice, and too important to leave in someone's personal GitHub account or an employer's org that might disappear. [More on why OHTF exists](about/why-ohtf.md).
+Health technology has standards bodies, professional bodies, policy organisations and large general-purpose software foundations. None of them is a practical, health-specific home for the open-source software that working developers and clinicians actually depend on: libraries, terminology tools, clinical calculators and record systems. That software is too important to leave in someone's personal GitHub account, or in an employer's organisation that might disappear. [More on why OHTF exists](about/why-ohtf.md).
 
 ## What OHTF looks after
 
@@ -70,25 +70,25 @@ OHTF accepts open-source projects that meet four tests:
 </dl>
 
 <dl markdown>
-<dt>Small but important</dt>
-<dd>Easy to neglect, yet costly and risky for the health system to lose or to keep reinventing.</dd>
+<dt>Worth keeping</dt>
+<dd>Software the health system would find costly and risky to lose, or to keep reinventing.</dd>
 </dl>
 
 </div>
 
-## Candidate projects
+## The first projects
 
-The first projects are libraries and tools already in use or in active development. Each one moves into OHTF only once it has named maintainers and has been through [project onboarding](projects/bring-a-project.md).
+These projects are expected to be among the first to join. They are already public and in active development, and each one moves into OHTF once it has named maintainers and has been through [project onboarding](projects/bring-a-project.md).
 
 | Project | What it does |
 | --- | --- |
-| [NHS Number](projects/index.md#nhs-number) | Validate, normalise and generate NHS Numbers, in several languages. |
-| [SNOMED CT tooling](projects/index.md#snomed-ct-tooling) | Fast, file-first tools for working with SNOMED CT releases. |
-| [Green Book](projects/index.md#green-book) | A computable UK immunisation schedule and an engine that evaluates it. |
-| [SAFETY.md](projects/index.md#safetymd) | A repository-native convention for clinical safety documentation. |
-| [GitEHR](projects/index.md#gitehr) | An electronic health record that uses Git as its storage layer. |
+| [NHS Number](projects/index.md#nhs-number) | Validate, normalise and generate NHS Numbers, in Python and Rust. |
+| [sct](projects/index.md#sct) | A local-first SNOMED CT toolchain: from RF2 release to SQL, Parquet, Markdown and fast local queries. |
+| [clincalc](projects/index.md#clincalc) | Open, auditable clinical calculators, each citing primary literature and tested against published vectors. |
+| [GitEHR](projects/index.md#gitehr) | A decentralised, multi-contributor electronic health record that uses Git as its storage layer. |
+| [anarchie](projects/index.md#anarchie) | A complete openEHR clinical data repository with Git-tracked, file-based persistence. |
 
-[See all candidate projects](projects/index.md){ .md-button }
+[See all projects](projects/index.md){ .md-button }
 
 ## How a project joins
 
@@ -101,7 +101,7 @@ The first projects are libraries and tools already in use or in active developme
 
 ## Hosting, support and training
 
-Some health organisations need more than a library: a hosted API, an assured deployment, support with a named contact, or training for their team. OHTF can provide these as paid services. The income pays for maintenance, and the underlying code stays open. [About OHTF services](services.md).
+Some health organisations need more than code: a hosted API, an assured deployment, support with a named contact, or training for their team. OHTF can provide these as paid services. The income pays for maintenance, and the underlying code stays open. [About OHTF services](services.md).
 
 ## Get involved
 

@@ -1,6 +1,6 @@
 # openhealthtechnology.org
 
-The website of the Open Health Technology Foundation (OHTF): a neutral home for small, reusable, open-source health technology components.
+The website of the Open Health Technology Foundation (OHTF): a neutral, long-term home for open-source health technology.
 
 [![CI](https://github.com/ohtf/openhealthtechnology.org-website/actions/workflows/ci.yml/badge.svg)](https://github.com/ohtf/openhealthtechnology.org-website/actions/workflows/ci.yml)
 [![Licence: CC BY-SA 4.0](https://img.shields.io/badge/Licence-CC%20BY--SA%204.0-blue.svg)](LICENSE)
