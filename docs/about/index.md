@@ -4,9 +4,9 @@ description: About the Open Health Technology Foundation - what it is, what it i
 
 # About OHTF
 
-The Open Health Technology Foundation (OHTF) is a UK-based, internationally minded steward for small, reusable, open-source health technology components.
+The Open Health Technology Foundation (OHTF) is a UK-based, internationally minded steward for open-source health technology.
 
-Health software is full of small, critical pieces of logic: validating an NHS Number, working with SNOMED CT, applying the immunisation schedule, documenting clinical safety. Too often these are rewritten from scratch in every product, or live in one person's GitHub account until that person changes job. OHTF gives them a durable, neutral home that can hold assets, support maintainers, publish code openly and offer paid services, without turning shared infrastructure into a proprietary product.
+Health care depends on open-source software: libraries that validate NHS Numbers, SNOMED CT tooling, clinical calculators, immunisation schedules, health record systems and clinical safety documentation. Too often these are rewritten from scratch in every product, or live in one person's GitHub account until that person changes job. OHTF gives them a durable, neutral home that can hold assets, support maintainers, publish code openly and offer paid services, without turning shared infrastructure into a proprietary product.
 
 > Talk is cheap; show me the code.
 
@@ -29,7 +29,7 @@ Health software is full of small, critical pieces of logic: validating an NHS Nu
 ## Operating principles
 
 Open by default
-:   Foundation Project code, build and deployment configuration, tests and documentation stay publicly reusable under open licences. See the [open-source commitment](../governance/open-source-commitment.md).
+:   Foundation Project code, build and deployment configuration, tests and documentation stay open for anyone to use, change and share. See the [open-source commitment](../governance/open-source-commitment.md).
 
 Public benefit, paid for by practical services
 :   OHTF can charge for hosting, support, implementation and training. That income sustains the shared infrastructure; it never encloses it.
@@ -43,8 +43,8 @@ Clinical safety is part of engineering
 Reproducible operations
 :   Infrastructure is described in version-controlled code, with a realistic self-hosting path where appropriate. Nothing depends on knowledge held by one person or one vendor's console.
 
-Small, useful, durable
-:   Working components and maintainable operations beat committees and strategy documents.
+Working code over committees
+:   Working software and maintainable operations beat committees and strategy documents.
 
 ## Where OHTF stands today
 

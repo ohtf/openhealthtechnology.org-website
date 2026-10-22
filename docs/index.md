@@ -55,7 +55,7 @@ OHTF accepts open-source projects that meet four tests:
 <div class="ohtf-criteria" markdown>
 
 <dl markdown>
-<dt>Reusable</dt>
+<dt>Vendor-neutral</dt>
 <dd>Useful across products, organisations and countries, not tied to one vendor or one national architecture.</dd>
 </dl>
 

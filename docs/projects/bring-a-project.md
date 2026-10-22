@@ -15,7 +15,7 @@ OHTF exists to give useful health software a home that does not depend on one pe
 A good candidate is:
 
 - **Shared infrastructure.** A library, specification, terminology or reference-data tool, clinical calculator, record system or service that others can build on, deploy or depend on, rather than one organisation's internal product.
-- **Useful beyond one organisation.** Reusable across products, organisations and, ideally, countries.
+- **Useful beyond one organisation.** Used, or usable, across products, organisations and, ideally, countries.
 - **Open source, or willing to be.** Code, build and deployment configuration and tests published under an [OSI-approved licence](https://opensource.org/licenses); documentation under an open content licence.
 - **Maintained.** At least one named maintainer who intends to keep looking after it, and a realistic plan for more.
 - **Honest about safety.** If the software could affect patient care, it records its clinical safety position, for example in a [SAFETY.md](index.md#safetymd).
