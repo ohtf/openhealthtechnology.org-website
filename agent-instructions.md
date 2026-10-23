@@ -21,6 +21,15 @@ This file is the entry point for AI coding agents. Read it before changing anyth
 - Landing-page hero copy lives in `docs/index.md` front matter, not in `overrides/home.html`.
 - British English, no em dashes, no hard-wrapped Markdown.
 
+## Voice
+
+OHTF should read as principled and distinctive, not as a generic health tech consultancy. It also bids for work with conservative public-sector organisations such as NHS England, so the site must be safe for that audience.
+
+- **Outspoken on principle.** State positions on ethics, governance and power plainly. Do not water them down into corporate neutrality.
+- **Never punch down.** Criticise ideas, structures and the powerful, never individuals or the less powerful.
+- **No reputational liabilities.** Nothing a cautious public-sector reader would see as a risk, such as references to hacktivist groups or illegal activity.
+- **Respectful of peer organisations.** Comparisons with other bodies stay factual about what each is for, not dismissive.
+
 ## Workflow
 
 - `s/docs` - serve locally with live reload.
