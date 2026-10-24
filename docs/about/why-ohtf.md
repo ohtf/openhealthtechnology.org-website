@@ -12,12 +12,12 @@ The short answer is that there are excellent organisations on every side of this
 
 | Organisation type | Examples | What they do well | Why it is not this job |
 | --- | --- | --- | --- |
-| General-purpose software foundations | Apache Software Foundation, Eclipse Foundation, Linux Foundation, CNCF | Proven governance and infrastructure for large open-source projects. | They can host a health project, but provide no health-specific identity, clinical safety awareness or peer group of related health projects. A health library at Apache sits alongside web servers and message queues. |
+| General-purpose software foundations | Apache Software Foundation, Eclipse Foundation, Linux Foundation, CNCF | Proven governance and infrastructure for large open-source projects. | They can host a health project, but provide no health-specific identity, clinical safety awareness or peer group of related health projects. A health library hosted there has few related health projects around it. |
 | Sector sub-foundations | Linux Foundation Public Health | A neutral home for public health authority software. | Hosting is scoped to public health authority deployments, which rules out general clinical libraries. |
 | Standards development organisations | HL7, SNOMED International, openEHR | Specifications and terminologies the whole sector relies on. | They publish standards. They are not homes for independent software or its maintainers. |
 | Health architecture and global goods initiatives | OpenHIE, Digital Square | Reference architectures for national health information exchange; curation and funding for global health software. | They describe and fund platforms, often for low- and middle-income settings. They do not host and maintain developer-facing software. |
 | UK health informatics communities | Apperta Foundation, BCS Health and Care | Open standards advocacy and professional community. | Platform-focused or professional-body-shaped, rather than a neutral home that holds and maintains independent code. |
-| Global and humanitarian health bodies | WHO, UN agencies | Policy, guidance and global health programmes. | Policy-first rather than developer-first, with funding and decision cycles not designed for maintaining software. |
+| Global and humanitarian health bodies | WHO, UN agencies | Policy, guidance and global health programmes. | Their mandate is global policy and programmes. Maintaining individual software projects is outside it. |
 
 ## What OHTF adds
 
