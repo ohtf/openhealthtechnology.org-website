@@ -29,7 +29,7 @@ Individual projects may add their own contribution guide covering their build, t
 
 Many contributors work for NHS organisations, universities or companies. A few things that help:
 
-- Check whether your employer has an open-source contribution policy. Many do, and most allow contributions made on your own time.
+- Check whether your employer has an open-source contribution policy. Many do, and many allow contributions made on your own time.
 - The DCO sign-off records that you have the right to make the contribution. If your contribution was made as part of your job, make sure your employer is content with it.
 - OHTF projects are published under open licences that disclaim warranty and liability. Publishing a contribution to an open-source library is closer to publishing a recipe than to supplying a product.
 

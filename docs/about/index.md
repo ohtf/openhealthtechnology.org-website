@@ -54,6 +54,6 @@ Until incorporation, OHTF operates as an open working group around [github.com/o
 
 ## Origins
 
-OHTF grew out of practical experience. An earlier shared home for the `nhs-number` library, in an organisation linked to a professional faculty, disappeared when that organisation closed. At the same time, contributors to open-source clinical libraries kept running into the same question from their employers: whose code is this, and what happens if something goes wrong? A named, neutral, community-owned organisation is a better answer to both problems than a collection of personal repositories.
+OHTF grew out of practical experience. The `nhs-number` library was previously moved to the `uk-fci` GitHub organisation, associated with the Faculty of Clinical Informatics (FCI). When the Faculty closed, that home stopped being viable, and the name could not be reused. At the same time, contributors to open-source clinical libraries kept running into the same question from their employers: whose code is this, and what happens if something goes wrong? A named, neutral, community-owned organisation is a better answer to both problems than a collection of personal repositories.
 
 [Why OHTF, rather than an existing foundation?](why-ohtf.md)

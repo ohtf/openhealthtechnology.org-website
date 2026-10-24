@@ -38,6 +38,12 @@ hero:
 
 # Open Health Technology Foundation
 
+<div class="ohtf-belief" markdown>
+
+Software that health care depends on should be open, free from the control of any single vendor, and maintained in public. Public money should buy public code.
+
+</div>
+
 <div class="ohtf-status" markdown>
 
 **Status:** OHTF is preparing to incorporate as Open Health Technology Foundation CIC, a UK community interest company. Until then it operates as an open working group around [github.com/ohtf](https://github.com/ohtf). [Read the governance position](governance/index.md).
@@ -78,7 +84,7 @@ OHTF accepts open-source projects that meet four tests:
 
 ## The first projects
 
-These projects are expected to be among the first to join. They are already public and in active development, and each one moves into OHTF once it has named maintainers and has been through [project onboarding](projects/bring-a-project.md).
+These are among the projects expected to join first. They are already public and in active development, and each one moves into OHTF once it has named maintainers and has been through [project onboarding](projects/bring-a-project.md).
 
 | Project | What it does |
 | --- | --- |
@@ -86,7 +92,6 @@ These projects are expected to be among the first to join. They are already publ
 | [sct](projects/index.md#sct) | A local-first SNOMED CT toolchain: from RF2 release to SQL, Parquet, Markdown and fast local queries. |
 | [clincalc](projects/index.md#clincalc) | Open, auditable clinical calculators, each citing primary literature and tested against published vectors. |
 | [GitEHR](projects/index.md#gitehr) | A decentralised, multi-contributor electronic health record that uses Git as its storage layer. |
-| [anarchie](projects/index.md#anarchie) | A complete openEHR clinical data repository with Git-tracked, file-based persistence. |
 
 [See all projects](projects/index.md){ .md-button }
 

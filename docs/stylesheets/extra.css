@@ -262,6 +262,25 @@
   margin: 0;
 }
 
+/* Statement of belief directly under the status strip. */
+.md-typeset .ohtf-belief {
+  margin: 2rem 0 1.5rem;
+  padding-left: 1.1rem;
+  border-left: 4px solid var(--ohtf-teal);
+}
+
+.md-typeset .ohtf-belief p {
+  margin: 0;
+  color: var(--md-default-fg-color);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .ohtf-belief {
+  border-left-color: #5cc7b8;
+}
+
 /* Criteria list: two-column definition layout, not cards. */
 .md-typeset .ohtf-criteria {
   display: grid;
