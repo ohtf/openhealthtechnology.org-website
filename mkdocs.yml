@@ -8,7 +8,7 @@ repo_name: ohtf/openhealthtechnology.org-website
 edit_uri: edit/main/docs/
 
 copyright: >-
-  Open Health Technology Foundation is preparing to incorporate as a UK community interest company.<br>
+  Open Health Technology Foundation has applied to incorporate as Open Health Technology CIC, a UK community interest company.<br>
   Site content &copy; 2026 Open Health Technology Foundation contributors,
   licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
 
@@ -85,4 +85,8 @@ nav:
       - Code of conduct: community/code-of-conduct.md
       - Developer Certificate of Origin: community/dco.md
       - Security: community/security.md
+  - Transparency:
+      - transparency/index.md
+      - Application to incorporate: transparency/incorporation.md
+      - Articles of Association: transparency/articles-of-association.md
   - Contact: contact.md

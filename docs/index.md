@@ -46,7 +46,7 @@ Software that health care depends on should be open, free from the control of an
 
 <div class="ohtf-status" markdown>
 
-**Status:** OHTF is preparing to incorporate as Open Health Technology Foundation CIC, a UK community interest company. Until then it operates as an open working group around [github.com/ohtf](https://github.com/ohtf). [Read the governance position](governance/index.md).
+**Status:** OHTF has applied to incorporate as Open Health Technology CIC, a UK community interest company, and is awaiting approval. In the spirit of working in the open, we have [published the application and our Articles](transparency/incorporation.md).
 
 </div>
 

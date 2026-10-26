@@ -8,11 +8,13 @@ OHTF's governance is meant to be clear, proportionate and public. Day-to-day pro
 
 ## Current status
 
-!!! warning "Not yet incorporated"
+!!! warning "Awaiting registration"
 
-    OHTF is **preparing to incorporate** as **Open Health Technology Foundation CIC**. It is not yet a registered company, cannot yet enter into contracts in its own name, and does not yet hold assets. This page will be updated with the company and CIC registration details once incorporation is complete.
+    OHTF has **applied to incorporate** as **Open Health Technology CIC** and is awaiting approval from Companies House and the CIC Regulator. Until the company is registered it cannot enter into contracts in its own name or hold assets. This page will be updated with the company number once registration is complete. The [application and Articles](../transparency/incorporation.md) are published in full.
 
-Until incorporation, OHTF operates as an open working group around the [github.com/ohtf](https://github.com/ohtf) organisation. Projects that join during this period keep their existing licences and copyright holders.
+    We intend to rename the company **Open Health Technology Foundation CIC** once Companies House approves use of the word "Foundation".
+
+Until registration, OHTF operates as an open working group around the [github.com/ohtf](https://github.com/ohtf) organisation. Projects that join during this period keep their existing licences and copyright holders.
 
 ## Legal form
 
@@ -26,15 +28,15 @@ We chose a CIC over a charity because it allows the technical and commercial agi
 
 ## Objects
 
-The draft objects of the company are:
+The objects of the company, from Article 5 of its [Articles of Association](../transparency/articles-of-association.md), are:
 
-> to carry on activities which benefit the community and, in particular, to advance health and healthcare for the public benefit by providing a neutral, sustainable and open-source home for reusable health technology.
+> to carry on activities which benefit the community and, in particular, to advance health and healthcare for the public benefit by providing a neutral, sustainable and open-source home for health technology, from focused libraries to national-scale clinical software services.
 
-In furtherance of that, OHTF may develop, maintain, publish, host, steward and support software, standards, technical documentation and other shared digital infrastructure that promotes safe, effective, equitable and interoperable healthcare, and support the people and organisations who use or maintain it.
+In furtherance of that, the company may develop, maintain, publish, host, steward and support software, standards, technical documentation and other shared digital infrastructure; provide technical stewardship and operational support for clinical digital tools; provide clinical safety, regulatory and governance infrastructure; and support the people and organisations who use or maintain them.
 
 ## Constitution
 
-OHTF's Articles of Association adapt the CIC Regulator's model Articles for a small-membership company limited by guarantee, with an added, entrenched [open-source commitment](open-source-commitment.md). The draft Articles are undergoing independent legal review and will be published here once filed.
+OHTF's Articles of Association adapt the CIC Regulator's model Articles for a small-membership company limited by guarantee, with an added, entrenched [open-source commitment](open-source-commitment.md). The Articles as submitted are [published in full](../transparency/articles-of-association.md).
 
 ## Directors and members
 
@@ -51,7 +53,7 @@ OHTF may later offer an annual public **OHTF Membership** for individuals and or
 | Policy | Status |
 | --- | --- |
 | [Do-ocracy](do-ocracy.md): how decisions are made in projects | Draft |
-| [Open-source commitment](open-source-commitment.md) | Draft, entrenched in the Articles |
+| [Open-source commitment](open-source-commitment.md) | Entrenched in the Articles as submitted |
 | [Project lifecycle](project-lifecycle.md) | Draft |
 | [Code of conduct](../community/code-of-conduct.md) | Adopted for OHTF spaces |
 | [Developer Certificate of Origin](../community/dco.md) | Adopted for OHTF repositories |
