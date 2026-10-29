@@ -12,8 +12,9 @@ The test we apply is simple: if a reasonable member of the public, a contributor
 
 | Document | Date | Notes |
 | --- | --- | --- |
-| [Application to incorporate: CIC36 community interest statement](incorporation.md) | 25 October 2026 | Signed declaration submitted to Companies House. Signatures and contact details redacted. |
-| [Articles of Association](articles-of-association.md) | 25 October 2026 | As submitted with the application. Readable text and the filed PDF. |
+| [Certificate of incorporation](incorporation.md) | 27 October 2026 | Company number 17544421. |
+| [CIC36 community interest statement](incorporation.md) | 25 October 2026 | Signed declaration submitted to Companies House. Signatures and contact details redacted. |
+| [Articles of Association](articles-of-association.md) | 27 October 2026 | As registered on incorporation. Readable text and the filed PDF. |
 
 ## What we intend to publish
 

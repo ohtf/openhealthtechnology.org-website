@@ -6,7 +6,7 @@ description: OHTF's entrenched commitment to keep Foundation Projects open sourc
 
 The most important promise OHTF makes is that **a Foundation Project cannot be closed**. If you contribute to an OHTF project, or build your product on one, the code will not be taken away from you.
 
-This commitment is written into OHTF's [Articles of Association](../transparency/articles-of-association.md) (Articles 37 and 38), and it is **entrenched**: it can only be changed if every voting member of the company agrees. That is the strongest protection a company's constitution can give.
+This commitment is written into Open Health Technology CIC's [Articles of Association](../transparency/articles-of-association.md) (Articles 37 and 38), and it is **entrenched**: it can only be changed if every voting member of the company agrees. That is the strongest protection a company's constitution can give.
 
 ## What OHTF must do
 

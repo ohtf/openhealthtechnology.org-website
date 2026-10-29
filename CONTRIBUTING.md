@@ -13,7 +13,7 @@ Thanks for helping improve the OHTF website.
 - Direct and concrete. Name the thing and the action; avoid marketing filler.
 - Use hyphens, not em dashes.
 - Do not hard-wrap Markdown paragraphs.
-- Never describe OHTF as incorporated, or a project as an OHTF project, until that is true.
+- Never describe a project as an OHTF project until it has been onboarded, or give OHTF's registered name as anything other than Open Health Technology CIC until a rename is filed.
 
 ## Before opening a pull request
 

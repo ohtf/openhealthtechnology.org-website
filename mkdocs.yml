@@ -8,7 +8,8 @@ repo_name: ohtf/openhealthtechnology.org-website
 edit_uri: edit/main/docs/
 
 copyright: >-
-  Open Health Technology Foundation has applied to incorporate as Open Health Technology CIC, a UK community interest company.<br>
+  Open Health Technology CIC is a community interest company registered in England and Wales, company number <a href="https://find-and-update.company-information.service.gov.uk/company/17544421">17544421</a>.
+  Registered office: 5 Brooklands Place, Brooklands Road, Sale, Cheshire, M33 5SD, United Kingdom.<br>
   Site content &copy; 2026 Open Health Technology Foundation contributors,
   licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.
 
@@ -87,6 +88,6 @@ nav:
       - Security: community/security.md
   - Transparency:
       - transparency/index.md
-      - Application to incorporate: transparency/incorporation.md
+      - Incorporation: transparency/incorporation.md
       - Articles of Association: transparency/articles-of-association.md
   - Contact: contact.md

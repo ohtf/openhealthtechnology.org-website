@@ -1,19 +1,20 @@
 ---
-description: Open Health Technology CIC's application to incorporate, including its CIC36 community interest statement.
+description: "Open Health Technology CIC's incorporation: certificate, CIC36 community interest statement and Articles."
 ---
 
-# Application to incorporate
+# Incorporation
 
-On 25 October 2026 OHTF's two founding directors applied to Companies House to incorporate **Open Health Technology CIC**, a community interest company limited by guarantee. The application is awaiting approval.
+On 25 October 2026 OHTF's two founding directors applied to Companies House to incorporate **Open Health Technology CIC**, a community interest company limited by guarantee. It was incorporated on **27 October 2026**, company number [17544421](https://find-and-update.company-information.service.gov.uk/company/17544421).
 
 !!! note "About the name"
 
-    The company is being registered as **Open Health Technology CIC**. "Foundation" is a sensitive word that needs separate approval from Companies House, which could not be completed in time for incorporation. We intend to rename the company **Open Health Technology Foundation CIC** once that approval is granted.
+    The company is registered as **Open Health Technology CIC**. "Foundation" is a sensitive word that needs separate approval from Companies House, which could not be completed in time for incorporation. We intend to rename the company **Open Health Technology Foundation CIC** once that approval is granted.
 
 ## Documents
 
+- [Certificate of incorporation (PDF)](documents/open-health-technology-cic-certificate-of-incorporation.pdf), issued by Companies House on 27 October 2026.
 - [CIC36 declaration, signed and submitted (PDF, redacted)](documents/open-health-technology-cic-cic36-redacted.pdf). The directors' signatures and the optional contact details on page 3 have been blacked out. Nothing else has been changed.
-- [Articles of Association](articles-of-association.md), as submitted with the application ([PDF](documents/open-health-technology-cic-articles-of-association.pdf)).
+- [Articles of Association](articles-of-association.md), as registered ([PDF](documents/open-health-technology-cic-articles-of-association.pdf)).
 
 ## The community interest statement
 
@@ -40,6 +41,6 @@ Every CIC must declare who it exists to benefit and how. This is the text of OHT
 
 The directors declared that the company will not be a political party, a political campaigning organisation, or a subsidiary of either.
 
-## What happens next
+## The official record
 
-Companies House and the CIC Regulator review the application. Once the company is registered, this page will be updated with the company number, registration date and certificate of incorporation.
+The [Companies House record](https://find-and-update.company-information.service.gov.uk/company/17544421) holds the full incorporation filing and the company's ongoing filings.

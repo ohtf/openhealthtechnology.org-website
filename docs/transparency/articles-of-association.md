@@ -1,12 +1,12 @@
 ---
-description: The Articles of Association of Open Health Technology CIC, as submitted to Companies House on 25 October 2026.
+description: The Articles of Association of Open Health Technology CIC, registered on incorporation on 27 October 2026.
 ---
 
 # Articles of Association
 
-!!! info "As submitted"
+!!! info "Registered Articles"
 
-    These are the Articles of Association of **Open Health Technology CIC**, as submitted to Companies House on 25 October 2026 with the application to incorporate. They take effect when the company is registered. The [filed PDF](documents/open-health-technology-cic-articles-of-association.pdf) is the authoritative copy; this page reproduces the same text for reading and search.
+    These are the Articles of Association of **Open Health Technology CIC** (company number 17544421), submitted to Companies House on 25 October 2026 and registered on incorporation on 27 October 2026. The [filed PDF](documents/open-health-technology-cic-articles-of-association.pdf) is the authoritative copy; this page reproduces the same text for reading and search.
 
 **The Companies Act 2006**
 

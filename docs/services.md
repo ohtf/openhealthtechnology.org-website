@@ -10,7 +10,7 @@ Service income pays for the maintenance, security fixes and safety work that kee
 
 !!! note "Availability"
 
-    OHTF has applied to incorporate and is awaiting approval. Formal service contracts will follow incorporation. If you have a need now, [get in touch](contact.md) and we can discuss what is possible.
+    OHTF is now incorporated and can contract in its own name. Our service offer is still being set up. If you have a need now, [get in touch](contact.md) and we can discuss what is possible.
 
 ## Hosted services
 

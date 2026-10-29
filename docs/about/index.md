@@ -48,9 +48,9 @@ Working code over committees
 
 ## Where OHTF stands today
 
-OHTF has **applied to incorporate** as **Open Health Technology CIC**, a UK community interest company limited by guarantee, and is awaiting approval. We intend to rename it Open Health Technology Foundation CIC once Companies House approves the word "Foundation". A CIC has a statutory asset lock, can hold intellectual property and trademarks, can contract and employ people, and must operate for community benefit. OHTF's [Articles of Association](../transparency/articles-of-association.md) also entrench an open-source commitment for Foundation Projects.
+OHTF is incorporated as **Open Health Technology CIC**, a UK community interest company limited by guarantee, company number [17544421](https://find-and-update.company-information.service.gov.uk/company/17544421), registered on 27 October 2026. We intend to rename it Open Health Technology Foundation CIC once Companies House approves the word "Foundation". A CIC has a statutory asset lock, can hold intellectual property and trademarks, can contract and employ people, and must operate for community benefit. OHTF's [Articles of Association](../transparency/articles-of-association.md) also entrench an open-source commitment for Foundation Projects.
 
-Until registration, OHTF operates as an open working group around [github.com/ohtf](https://github.com/ohtf). See [governance](../governance/index.md) and [transparency](../transparency/index.md) for details.
+Its code and projects live in the open at [github.com/ohtf](https://github.com/ohtf). See [governance](../governance/index.md) and [transparency](../transparency/index.md) for details.
 
 ## Origins
 

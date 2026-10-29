@@ -46,7 +46,7 @@ Software that health care depends on should be open, free from the control of an
 
 <div class="ohtf-status" markdown>
 
-**Status:** OHTF has applied to incorporate as Open Health Technology CIC, a UK community interest company, and is awaiting approval. In the spirit of working in the open, we have [published the application and our Articles](transparency/incorporation.md).
+**Incorporated:** OHTF is now **Open Health Technology CIC**, a UK community interest company, company number [17544421](https://find-and-update.company-information.service.gov.uk/company/17544421), incorporated on 27 October 2026. In the spirit of working in the open, we have [published our founding documents](transparency/incorporation.md).
 
 </div>
 
