@@ -13,7 +13,7 @@ This file is the entry point for AI coding agents. Read it before changing anyth
 
 ## Core Invariants
 
-- The registered company is **Open Health Technology CIC**, company number 17544421, incorporated 27 October 2026. "Open Health Technology Foundation CIC" is the intended later name, pending sensitive-word approval; never present it as the registered name until the rename is filed. Keep the footer's legal disclosures (registered name, number, place of registration, registered office) accurate.
+- The registered company is **Open Health Technology CIC**, company number 17544421, incorporated 27 October 2026. "Open Health Technology Foundation CIC" is the intended later name, pending sensitive-word approval; never present it as the registered name until the rename is filed. Keep the footer's legal disclosures (registered name, number, place of registration) accurate. The registered office address is deliberately omitted until the accountant files an AD01 moving it (the address on the register has an incorrect postcode); add it to the footer once that change is registered.
 - Published legal documents under `docs/transparency/` are reproduced verbatim from what was filed. Never edit their wording; redact personal data only, and say so.
 - Never present a candidate project as owned or maintained by OHTF.
 - Do not publish confidential planning material: partner negotiations, named director or non-executive candidates, customer information, procurement documents.
