@@ -1,18 +1,24 @@
 ---
-description: Projects expected to join the Open Health Technology Foundation, and other candidates.
+description: Foundation Projects and candidate projects at the Open Health Technology Foundation.
 ---
 
 # Projects
 
-These are real, public, open-source projects, mostly started by people involved in founding OHTF. Being listed here is not a claim that OHTF already owns or maintains a project. Each one becomes a Foundation Project when it has named maintainers and has completed [onboarding](bring-a-project.md).
+**Foundation Projects** live at [github.com/ohtf](https://github.com/ohtf), with named maintainers and OHTF's [governance](../governance/index.md). **Candidate projects** are public, open-source projects going through [onboarding](bring-a-project.md); until they join, each is governed by its original home, linked below. When a project joins, its repository transfers to github.com/ohtf and the old address redirects.
 
-Each entry links to where the code lives today. When a project moves under OHTF, its repository transfers to [github.com/ohtf](https://github.com/ohtf), and the old address redirects.
+Each project's stage is defined in the [project lifecycle](../governance/project-lifecycle.md).
 
-!!! info "Lifecycle status"
+## Foundation Projects
 
-    All projects below are currently at the **Candidate** stage of the [project lifecycle](../governance/project-lifecycle.md).
+### Open Clinical Terminology (`oct`)
 
-## Expected to join first
+An open, community-owned clinical terminology, developed clean-room from contributions by clinicians, developers and others. `oct` defines concept identifiers and internationalised descriptions; hierarchies are left to separate ontologies that reference `oct` identifiers.
+
+**Status:** Incubating.
+
+[Website](https://openterminology.org/) · [Source](https://github.com/ohtf/oct)
+
+## Candidate projects
 
 ### NHS Number
 
@@ -46,14 +52,6 @@ A Git-based, decentralised, multi-contributor electronic health record. Clinical
 A complete openEHR clinical data repository, written in Rust, that uses Git-tracked flat files instead of a database server for persistence.
 
 [Documentation](https://pacharanero.github.io/anarchie/) · [Source](https://github.com/pacharanero/anarchie)
-
-## Other candidates
-
-### Open Clinical Terminology (`oct`)
-
-An open clinical terminology, developed in the open.
-
-[Website](http://openterminology.org/) · [Source](https://github.com/openterminology/oct)
 
 ### Green Book
 

@@ -6,10 +6,6 @@ description: The lifecycle stages an OHTF Foundation Project moves through, from
 
 Every OHTF project has an explicit lifecycle status, shown on the [projects page](../projects/index.md) and in the project's own README. The status tells users how much they can rely on a project today.
 
-!!! note "Draft"
-
-    This lifecycle is a working draft and will be confirmed in OHTF's project acceptance policy.
-
 | Status | Meaning | What you can expect |
 | --- | --- | --- |
 | **Candidate** | Proposed or invited, not yet onboarded. | The project is still governed by its original home. |

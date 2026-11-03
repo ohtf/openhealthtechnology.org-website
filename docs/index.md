@@ -9,10 +9,10 @@ hero:
   eyebrow: Open Health Technology Foundation
   title: A neutral, long-term home for open-source health software
   lead: >-
-    OHTF stewards the open-source software that health care runs on, from
-    NHS Number and SNOMED CT tooling and clinical calculators to Git-based
-    health records. Open code, named maintainers, and an organisation that
-    outlasts any one employer.
+    OHTF stewards the open-source software that health care runs on:
+    clinical terminologies, identifier and terminology tooling, clinical
+    calculators and health records. Open code, named maintainers, and an
+    organisation that outlasts any one employer.
   actions:
     - label: See the projects
       link: projects/
@@ -20,7 +20,7 @@ hero:
       link: about/why-ohtf/
   code:
     alt: "A terminal session installing the nhs-number Python library and validating an NHS Number, which returns True."
-    caption: "nhs-number, one of OHTF's candidate projects. Talk is cheap; show me the code."
+    caption: "nhs-number, a candidate OHTF project. Talk is cheap; show me the code."
     lines:
       - prompt: "$"
         input: "pip install nhs-number"
@@ -41,12 +41,6 @@ hero:
 <div class="ohtf-belief" markdown>
 
 Software that health care depends on should be open, free from the control of any single vendor, and maintained in public. Public money should buy public code.
-
-</div>
-
-<div class="ohtf-status" markdown>
-
-**Incorporated:** OHTF is now **Open Health Technology CIC**, a UK community interest company, company number [17544421](https://find-and-update.company-information.service.gov.uk/company/17544421), incorporated on 27 October 2026. In the spirit of working in the open, we have [published our founding documents](transparency/incorporation.md).
 
 </div>
 
@@ -82,16 +76,17 @@ OHTF accepts open-source projects that meet four tests:
 
 </div>
 
-## The first projects
+## Projects
 
-These are among the projects expected to join first. They are already public and in active development, and each one moves into OHTF once it has named maintainers and has been through [project onboarding](projects/bring-a-project.md).
+Foundation Projects are maintained under [github.com/ohtf](https://github.com/ohtf). Candidate projects are public, in active development and going through [project onboarding](projects/bring-a-project.md).
 
-| Project | What it does |
-| --- | --- |
-| [NHS Number](projects/index.md#nhs-number) | Validate, normalise and generate NHS Numbers, in Python and Rust. |
-| [sct](projects/index.md#sct) | A local-first SNOMED CT toolchain: from RF2 release to SQL, Parquet, Markdown and fast local queries. |
-| [clincalc](projects/index.md#clincalc) | Open, auditable clinical calculators, each citing primary literature and tested against published vectors. |
-| [GitEHR](projects/index.md#gitehr) | A decentralised, multi-contributor electronic health record that uses Git as its storage layer. |
+| Project | What it does | Status |
+| --- | --- | --- |
+| [Open Clinical Terminology (`oct`)](projects/index.md#open-clinical-terminology-oct) | An open, community-owned clinical terminology. | Foundation Project |
+| [NHS Number](projects/index.md#nhs-number) | Validate, normalise and generate NHS Numbers, in Python and Rust. | Candidate |
+| [sct](projects/index.md#sct) | A local-first SNOMED CT toolchain: from RF2 release to SQL, Parquet, Markdown and fast local queries. | Candidate |
+| [clincalc](projects/index.md#clincalc) | Open, auditable clinical calculators, each citing primary literature and tested against published vectors. | Candidate |
+| [GitEHR](projects/index.md#gitehr) | A decentralised, multi-contributor electronic health record that uses Git as its storage layer. | Candidate |
 
 [See all projects](projects/index.md){ .md-button }
 

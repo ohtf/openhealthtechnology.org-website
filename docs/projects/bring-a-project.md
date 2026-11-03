@@ -6,10 +6,6 @@ description: How to propose a project for a neutral, long-term home at the Open 
 
 OHTF exists to give useful health software a home that does not depend on one person's spare time or one employer's priorities. If you maintain something that fits, we would like to hear about it.
 
-!!! note "Draft criteria"
-
-    These criteria are a working draft. They will be confirmed as part of OHTF's governance documents before the first projects are formally accepted.
-
 ## What fits
 
 A good candidate is:

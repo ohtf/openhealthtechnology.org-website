@@ -8,10 +8,6 @@ OHTF projects run as a **do-ocracy**: the people who do the work decide how it i
 
 OHTF deliberately does **not** describe itself as a *meritocracy*. This page explains the difference, the known weaknesses of do-ocracy, and the structure OHTF puts around it so that it stays fair.
 
-!!! note "Draft"
-
-    This page describes OHTF's intended way of working. It will be confirmed alongside OHTF's other governance policies.
-
 ## What do-ocracy means
 
 Do-ocracy is a way of making decisions in which "those who take initiative to do work in a group are empowered to make decisions about what they do" ([CommunityRule](https://communityrule.info/modules/do-ocracy/)). It is common in volunteer communities, hackerspaces and open-source projects. Drupal contributors, for example, have long described their project's governance as a do-ocracy, based on the self-allocation of tasks ([David Rozas, via the P2P Foundation wiki](https://wiki.p2pfoundation.net/Do-ocracy)). It also runs through Cory Doctorow's novel [*Walkaway*](https://craphound.com/category/walkaway/) (2017), whose communities leave conventional society and organise around whoever turns up and does the work.

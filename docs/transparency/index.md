@@ -8,7 +8,7 @@ OHTF asks the projects it looks after to work in the open. It should be held to 
 
 The test we apply is simple: if a reasonable member of the public, a contributor or an NHS organisation would want to know it, and publishing it harms nobody, we publish it.
 
-## Published so far
+## Published documents
 
 | Document | Date | Notes |
 | --- | --- | --- |
@@ -16,9 +16,9 @@ The test we apply is simple: if a reasonable member of the public, a contributor
 | [CIC36 community interest statement](incorporation.md) | 25 October 2026 | Signed declaration submitted to Companies House. Signatures and contact details redacted. |
 | [Articles of Association](articles-of-association.md) | 27 October 2026 | As registered on incorporation. Readable text and the filed PDF. |
 
-## What we intend to publish
+## What we publish
 
-Companies House requires a CIC to file annual accounts, and the CIC Regulator requires an annual community interest report. We will publish those, and go further. Over time this section will include:
+Companies House requires a CIC to file annual accounts, and the CIC Regulator requires an annual community interest report. We publish both, and go further:
 
 - **Finances.** Income and where it comes from, what we spend it on, and how service income funds maintenance of the open projects.
 - **Directors and related parties.** Who the directors are, what, if anything, they are paid, and any transactions between OHTF and organisations connected to its directors.

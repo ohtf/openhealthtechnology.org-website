@@ -1,5 +1,5 @@
 ---
-description: About the Open Health Technology Foundation - what it is, what it is not, and where it stands today.
+description: About the Open Health Technology Foundation - what it is, what it is not, and how it is constituted.
 ---
 
 # About OHTF
@@ -46,11 +46,11 @@ Reproducible operations
 Working code over committees
 :   Working software and maintainable operations beat committees and strategy documents.
 
-## Where OHTF stands today
+## Legal form
 
-OHTF is incorporated as **Open Health Technology CIC**, a UK community interest company limited by guarantee, company number [17544421](https://find-and-update.company-information.service.gov.uk/company/17544421), registered on 27 October 2026. We intend to rename it Open Health Technology Foundation CIC once Companies House approves the word "Foundation". A CIC has a statutory asset lock, can hold intellectual property and trademarks, can contract and employ people, and must operate for community benefit. OHTF's [Articles of Association](../transparency/articles-of-association.md) also entrench an open-source commitment for Foundation Projects.
+OHTF is **Open Health Technology CIC**, a UK community interest company limited by guarantee, company number [17544421](https://find-and-update.company-information.service.gov.uk/company/17544421). A change of name to Open Health Technology Foundation CIC is in progress. A CIC has a statutory asset lock, can hold intellectual property and trademarks, can contract and employ people, and must operate for community benefit. OHTF's [Articles of Association](../transparency/articles-of-association.md) also entrench an open-source commitment for Foundation Projects.
 
-Its code and projects live in the open at [github.com/ohtf](https://github.com/ohtf). See [governance](../governance/index.md) and [transparency](../transparency/index.md) for details.
+Its code and Foundation Projects live in the open at [github.com/ohtf](https://github.com/ohtf). See [governance](../governance/index.md) and [transparency](../transparency/index.md) for details.
 
 ## Origins
 

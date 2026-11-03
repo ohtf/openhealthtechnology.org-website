@@ -15,7 +15,8 @@ This file is the entry point for AI coding agents. Read it before changing anyth
 
 - The registered company is **Open Health Technology CIC**, company number 17544421, incorporated 27 October 2026. "Open Health Technology Foundation CIC" is the intended later name, pending sensitive-word approval; never present it as the registered name until the rename is filed. Keep the footer's legal disclosures (registered name, number, place of registration) accurate. The registered office address (the accountant's office) is deliberately omitted from the footer until an AD01 corrects its postcode on the register (M33 5SD was entered in error; the correct postcode is M33 3SD); add it back to the footer, and correct the Governance page, once that change is registered.
 - Published legal documents under `docs/transparency/` are reproduced verbatim from what was filed. Never edit their wording; redact personal data only, and say so.
-- Never present a candidate project as owned or maintained by OHTF.
+- Write about OHTF as a business-as-usual operation. Do not track the organisation's own progress on the site: no "intend to", "will be confirmed", "draft", "in preparation", "being set up", "so far" or founding-timeline status updates. State what OHTF is and does in the present tense. The only permitted in-progress statement is the one-line note that a change of name to Open Health Technology Foundation CIC is in progress.
+- Foundation Projects are those whose repositories live under github.com/ohtf; `oct` (Open Clinical Terminology) was the first. Never present a candidate project as owned or maintained by OHTF; label candidates as candidates.
 - Do not publish confidential planning material: partner negotiations, named director or non-executive candidates, customer information, procurement documents.
 - Every page under `docs/` appears in `nav:` in `mkdocs.yml`.
 - Brand colours are defined once, as tokens at the top of `docs/stylesheets/extra.css`.

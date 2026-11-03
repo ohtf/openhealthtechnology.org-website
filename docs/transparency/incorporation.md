@@ -4,11 +4,11 @@ description: "Open Health Technology CIC's incorporation: certificate, CIC36 com
 
 # Incorporation
 
-On 25 October 2026 OHTF's two founding directors applied to Companies House to incorporate **Open Health Technology CIC**, a community interest company limited by guarantee. It was incorporated on **27 October 2026**, company number [17544421](https://find-and-update.company-information.service.gov.uk/company/17544421).
+**Open Health Technology CIC** is a community interest company limited by guarantee, incorporated on **27 October 2026**, company number [17544421](https://find-and-update.company-information.service.gov.uk/company/17544421).
 
 !!! note "About the name"
 
-    The company is registered as **Open Health Technology CIC**. "Foundation" is a sensitive word that needs separate approval from Companies House, which could not be completed in time for incorporation. We intend to rename the company **Open Health Technology Foundation CIC** once that approval is granted.
+    The company is registered as **Open Health Technology CIC**. A change of name to **Open Health Technology Foundation CIC** is in progress.
 
 ## Documents
 

@@ -243,26 +243,7 @@
   font-weight: 700;
 }
 
-/* Status strip directly under the hero. */
-.md-typeset .ohtf-status {
-  margin: 1.5rem 0 0;
-  padding: 0.9rem 1.1rem;
-  border-left: 4px solid var(--ohtf-amber);
-  background-color: var(--ohtf-sand);
-  color: var(--ohtf-ink);
-  font-size: 0.75rem;
-}
-
-[data-md-color-scheme="slate"] .md-typeset .ohtf-status {
-  background-color: var(--md-code-bg-color);
-  color: var(--md-default-fg-color);
-}
-
-.md-typeset .ohtf-status p {
-  margin: 0;
-}
-
-/* Statement of belief directly under the status strip. */
+/* Statement of belief directly under the hero. */
 .md-typeset .ohtf-belief {
   margin: 2rem 0 1.5rem;
   padding-left: 1.1rem;
