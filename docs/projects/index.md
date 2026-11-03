@@ -49,7 +49,7 @@ A complete openEHR clinical data repository, written in Rust, that uses Git-trac
 
 ## Other candidates
 
-### Open Clinical Terminology (OCT)
+### Open Clinical Terminology (`oct`)
 
 An open clinical terminology, developed in the open.
 
