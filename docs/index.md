@@ -20,7 +20,7 @@ hero:
       link: about/why-ohtf/
   code:
     alt: "A terminal session installing the nhs-number Python library and validating an NHS Number, which returns True."
-    caption: "nhs-number, a candidate OHTF project. Talk is cheap; show me the code."
+    caption: "nhs-number, a candidate OHTF project."
     lines:
       - prompt: "$"
         input: "pip install nhs-number"

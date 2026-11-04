@@ -8,8 +8,6 @@ The Open Health Technology Foundation (OHTF) is a UK-based, internationally mind
 
 Health care depends on open-source software: libraries that validate NHS Numbers, SNOMED CT tooling, clinical calculators, immunisation schedules, health record systems and clinical safety documentation. Too often these are rewritten from scratch in every product, or live in one person's GitHub account until that person changes job. OHTF gives them a durable, neutral home that can hold assets, support maintainers, publish code openly and offer paid services, without turning shared infrastructure into a proprietary product.
 
-> Talk is cheap; show me the code.
-
 ## What OHTF does
 
 - Accepts and stewards open-source health technology projects that have named maintainers and a clear public benefit.
