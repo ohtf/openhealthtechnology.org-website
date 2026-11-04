@@ -19,7 +19,7 @@ This file is the entry point for AI coding agents. Read it before changing anyth
 - Foundation Projects are those whose repositories live under github.com/ohtf; `oct` (Open Clinical Terminology) was the first. Never present a candidate project as owned or maintained by OHTF; label candidates as candidates.
 - Do not publish confidential planning material: partner negotiations, named director or non-executive candidates, customer information, procurement documents.
 - Every page under `docs/` appears in `nav:` in `mkdocs.yml`.
-- Brand colours are defined once, as tokens at the top of `docs/stylesheets/extra.css`.
+- Brand colours are defined once, as tokens at the top of `docs/stylesheets/extra.css`: Surgical Green (`#0D4A3B`) and its white-mixed tint scale (80, 60, 40, 20, 10), from OHTF's branding reference in the planning material. No accent or complementary colours have been chosen; do not introduce any, or any other near-matching greens. For depth, use black or white at low opacity over a brand colour. Keep text and interactive states at WCAG AA contrast or better.
 - Landing-page hero copy lives in `docs/index.md` front matter, not in `overrides/home.html`.
 - British English, no em dashes, no hard-wrapped Markdown.
 
