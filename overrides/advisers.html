@@ -1,0 +1,36 @@
+{#-
+  SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+  Advisers page template. The page's own Markdown renders first, then a grid
+  of advisers from the `advisers:` front matter of docs/about/advisers.md.
+  Each entry has `name` (including any title), `role` and `photo` (a
+  site-root path such as assets/advisers/jane-smith.jpg, made with
+  s/headshot).
+
+  The photo has empty alt text because the name is printed next to it.
+-#}
+{% extends "main.html" %}
+
+{% block content %}
+  {{ super() }}
+  {% if page.meta.advisers %}
+    <ul class="ohtf-advisers">
+      {% for adviser in page.meta.advisers %}
+        <li class="ohtf-adviser">
+          <img
+            class="ohtf-adviser__photo"
+            src="{{ adviser.photo | url }}"
+            alt=""
+            width="400"
+            height="400"
+            loading="lazy"
+            decoding="async"
+          >
+          <h2 class="ohtf-adviser__name">{{ adviser.name }}</h2>
+          <p class="ohtf-adviser__role">{{ adviser.role }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endblock %}

@@ -71,6 +71,7 @@ nav:
   - About:
       - about/index.md
       - Why OHTF exists: about/why-ohtf.md
+      - Advisers: about/advisers.md
   - Projects:
       - projects/index.md
       - Bring a project: projects/bring-a-project.md

@@ -19,6 +19,7 @@ This file is the entry point for AI coding agents. Read it before changing anyth
 - Foundation Projects are those whose repositories live under github.com/ohtf; `oct` (Open Clinical Terminology) was the first and the `nhs-number` Python package (`ohtf/nhs-number-py`) the second. Never present a candidate project as owned or maintained by OHTF; label candidates as candidates.
 - Do not publish confidential planning material: partner negotiations, named director or non-executive candidates, customer information, procurement documents.
 - Every page under `docs/` appears in `nav:` in `mkdocs.yml`.
+- Advisers are listed only with their agreement to be named and pictured. Add each one to the `advisers:` front matter of `docs/about/advisers.md` (name including any title, role, photo) and make every photo with `s/headshot`, never by hand, so all headshots share the same black and white treatment, square crop and stripped metadata. Never publish the Advisers page with an empty list.
 - Brand colours are defined once, as tokens at the top of `docs/stylesheets/extra.css`: Surgical Green (`#0D4A3B`) and its white-mixed tint scale (80, 60, 40, 20, 10), from OHTF's branding reference in the planning material. No accent or complementary colours have been chosen; do not introduce any, or any other near-matching greens. For depth, use black or white at low opacity over a brand colour. Keep text and interactive states at WCAG AA contrast or better.
 - Landing-page hero copy lives in `docs/index.md` front matter, not in `overrides/home.html`.
 - British English, no em dashes, no hard-wrapped Markdown.
@@ -36,6 +37,7 @@ OHTF should read as principled and distinctive, not as a generic health tech con
 
 - `s/docs` - serve locally with live reload.
 - `s/build` - build into `site/`.
+- `s/headshot <photo> <slug> [gravity]` - turn a supplied photo into an adviser headshot in `docs/assets/advisers/`.
 - `s/check-docs-nav` - fail on orphaned or missing nav pages.
 
 ## Before Every Commit

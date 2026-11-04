@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
+# SPDX-License-Identifier: CC-BY-SA-4.0
+#
+# Turn a supplied photo into a site headshot: black and white, tonality
+# evened out (auto-level then auto-gamma, so every headshot sits at a
+# similar brightness and contrast), cropped square, 800x800 JPEG, with all
+# metadata (including camera and GPS EXIF) stripped.
+#
+# Usage:
+#   s/headshot <photo> <slug> [gravity]
+#
+#   s/headshot ~/Downloads/IMG_1234.jpg jane-smith
+#   s/headshot ~/Downloads/tall-photo.png jane-smith north
+#
+# Writes docs/assets/advisers/<slug>.jpg. The crop is taken from the centre
+# by default; pass "north" (or any ImageMagick gravity) when a tall photo
+# would otherwise cut off the top of someone's head. Check the result
+# before committing it.
+#
+# Needs ImageMagick 7 (`magick`).
+
+set -euo pipefail
+cd "$(git rev-parse --show-toplevel)"
+
+if [[ $# -lt 2 || $# -gt 3 ]]; then
+  sed -n '10,14p' "$0" | sed 's/^# \{0,1\}//' >&2
+  exit 2
+fi
+
+if ! command -v magick >/dev/null 2>&1; then
+  echo "ImageMagick 7 is needed. Install it, for example: sudo pacman -S imagemagick" >&2
+  exit 1
+fi
+
+input=$1
+slug=$2
+gravity=${3:-center}
+
+if [[ ! -f $input ]]; then
+  echo "No such file: $input" >&2
+  exit 1
+fi
+
+if [[ ! $slug =~ ^[a-z0-9]+(-[a-z0-9]+)*$ ]]; then
+  echo "Slug must be lowercase words joined by hyphens, for example jane-smith" >&2
+  exit 1
+fi
+
+output=docs/assets/advisers/$slug.jpg
+mkdir -p docs/assets/advisers
+
+exec magick "$input" \
+  -auto-orient \
+  -background white -alpha remove -alpha off \
+  -colorspace Gray \
+  -auto-level \
+  -auto-gamma \
+  -resize 800x800^ \
+  -gravity "$gravity" \
+  -extent 800x800 \
+  -strip \
+  -interlace Plane \
+  -quality 82 \
+  "$output"

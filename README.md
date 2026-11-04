@@ -33,10 +33,12 @@ It is not the planning or governance working repository for OHTF, and it holds n
 | `docs/` | Page content in Markdown. |
 | `docs/index.md` | Landing page. Hero copy lives in its `hero:` front matter. |
 | `docs/stylesheets/extra.css` | Brand colour tokens and landing-page styles. |
-| `docs/assets/ohtf-mark.svg` | Placeholder mark until OHTF has a designed logo. |
+| `docs/assets/ohtf-mark.svg` | OHTF mark, also used as the favicon. |
 | `docs/CNAME` | Custom domain for GitHub Pages. |
 | `overrides/home.html` | Landing-page template. |
-| `s/` | Repeated tasks: `s/docs` (serve), `s/build` (build), `s/check-docs-nav` (nav orphan check). |
+| `docs/about/advisers.md` | Advisers page. Each adviser (name with any title, role, photo) is an entry in its `advisers:` front matter, rendered by `overrides/advisers.html`. |
+| `docs/assets/advisers/` | Adviser headshots, made with `s/headshot`. |
+| `s/` | Repeated tasks: `s/docs` (serve), `s/build` (build), `s/check-docs-nav` (nav orphan check), `s/headshot` (prepare an adviser photo). |
 
 ## Checks
 

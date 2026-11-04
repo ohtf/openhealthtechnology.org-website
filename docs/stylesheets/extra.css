@@ -332,3 +332,49 @@
   background-color: var(--ohtf-surgical-green-40);
   color: var(--ohtf-surgical-green);
 }
+
+/* Advisers grid (overrides/advisers.html). Selectors include the element
+   names so they outrank the theme's list rules. */
+.md-typeset ul.ohtf-advisers {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+  gap: 1.75rem 1rem;
+  margin: 2rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Two across on phones, so a headshot never fills the whole screen. */
+@media screen and (max-width: 29.9375em) {
+  .md-typeset ul.ohtf-advisers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.md-typeset ul.ohtf-advisers > li.ohtf-adviser {
+  margin: 0;
+}
+
+.md-typeset .ohtf-adviser__photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0.2rem;
+  background-color: var(--ohtf-surgical-green-10);
+}
+
+.md-typeset .ohtf-adviser__name {
+  margin: 0.75rem 0 0.15rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.md-typeset .ohtf-adviser__role {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--md-default-fg-color--light);
+}
