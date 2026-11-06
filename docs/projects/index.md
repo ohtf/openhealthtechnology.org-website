@@ -18,16 +18,21 @@ An open, community-owned clinical terminology, developed clean-room from contrib
 
 [Website](https://openterminology.org/) · [Source](https://github.com/ohtf/oct)
 
-## Candidate projects
-
 ### NHS Number
 
-Validate, normalise, format and generate NHS Numbers (including the Scottish CHI and Northern Irish H&C ranges), with region checks. There are two implementations:
+The `nhs-number` Python package validates, normalises, formats and generates NHS Numbers (including the Scottish CHI and Northern Irish H&C ranges), with region checks. A shared, language-agnostic set of test vectors lets any port to another language prove it gives the same answers.
 
-- **Python:** the `nhs-number` package. [Documentation](https://uk-fci.github.io/nhs-number/) · [Source](https://github.com/uk-fci/nhs-number)
-- **Rust:** the `nhs-number` crate, by Joel Parker Henderson. [Source](https://github.com/joelparkerhenderson/nhs-number-using-rust) · [crates.io](https://crates.io/crates/nhs-number)
+**Status:** Incubating.
 
-A shared, language-agnostic set of test vectors lets each implementation, and any future port, prove it gives the same answers.
+[Documentation](https://ohtf.github.io/nhs-number-py/) · [Source](https://github.com/ohtf/nhs-number-py) · [PyPI](https://pypi.org/project/nhs-number/)
+
+## Candidate projects
+
+### NHS Number for Rust
+
+The `nhs-number` Rust crate, by Joel Parker Henderson, implements the same NHS Number checks and is tested against the same shared vectors.
+
+[Source](https://github.com/joelparkerhenderson/nhs-number-using-rust) · [crates.io](https://crates.io/crates/nhs-number)
 
 ### sct
 
