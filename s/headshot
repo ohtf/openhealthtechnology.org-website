@@ -4,7 +4,8 @@
 #
 # Turn a supplied photo into a site headshot: black and white, tonality
 # evened out (auto-level then auto-gamma, so every headshot sits at a
-# similar brightness and contrast), cropped square, 800x800 JPEG, with all
+# similar brightness and contrast), cropped square, at most 800x800 (small
+# photos are never enlarged, which would only blur them), JPEG, with all
 # metadata (including camera and GPS EXIF) stripped.
 #
 # Usage:
@@ -24,7 +25,7 @@ set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 
 if [[ $# -lt 2 || $# -gt 3 ]]; then
-  sed -n '10,14p' "$0" | sed 's/^# \{0,1\}//' >&2
+  sed -n '11,15p' "$0" | sed 's/^# \{0,1\}//' >&2
   exit 2
 fi
 
@@ -56,9 +57,10 @@ exec magick "$input" \
   -colorspace Gray \
   -auto-level \
   -auto-gamma \
-  -resize 800x800^ \
   -gravity "$gravity" \
-  -extent 800x800 \
+  -extent '%[fx:min(w,h)]x%[fx:min(w,h)]' \
+  +repage \
+  -resize '800x800>' \
   -strip \
   -interlace Plane \
   -quality 82 \

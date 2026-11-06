@@ -19,7 +19,7 @@ This file is the entry point for AI coding agents. Read it before changing anyth
 - Foundation Projects are those whose repositories live under github.com/ohtf; `oct` (Open Clinical Terminology) was the first and the `nhs-number` Python package (`ohtf/nhs-number-py`) the second. Never present a candidate project as owned or maintained by OHTF; label candidates as candidates.
 - Do not publish confidential planning material: partner negotiations, named director or non-executive candidates, customer information, procurement documents.
 - Every page under `docs/` appears in `nav:` in `mkdocs.yml`.
-- Advisers are listed only with their agreement to be named and pictured. Add each one to the `advisers:` front matter of `docs/about/advisers.md` (name including any title, role, photo) and make every photo with `s/headshot`, never by hand, so all headshots share the same black and white treatment, square crop and stripped metadata. Never publish the Advisers page with an empty list.
+- Advisers are listed only with their agreement to be named and pictured, and the Advisers page is never published with an empty list. Follow [Adding an adviser](#adding-an-adviser) for every one.
 - Brand colours are defined once, as tokens at the top of `docs/stylesheets/extra.css`: Surgical Green (`#0D4A3B`) and its white-mixed tint scale (80, 60, 40, 20, 10), from OHTF's branding reference in the planning material. No accent or complementary colours have been chosen; do not introduce any, or any other near-matching greens. For depth, use black or white at low opacity over a brand colour. Keep text and interactive states at WCAG AA contrast or better.
 - Landing-page hero copy lives in `docs/index.md` front matter, not in `overrides/home.html`.
 - British English, no em dashes, no hard-wrapped Markdown.
@@ -39,6 +39,15 @@ OHTF should read as principled and distinctive, not as a generic health tech con
 - `s/build` - build into `site/`.
 - `s/headshot <photo> <slug> [gravity]` - turn a supplied photo into an adviser headshot in `docs/assets/advisers/`.
 - `s/check-docs-nav` - fail on orphaned or missing nav pages.
+
+## Adding an adviser
+
+Use this procedure for every adviser, in this order.
+
+1. **Record them in the planning material.** In `team/advisors.md` in the OHTF planning folder (ask the maintainer where it is), add them under `## Confirmed`, as a `### <display name>` heading with their details below: display name (including any title), role, photo source, and the date added. Check they are already in that file's "Listed Advisers" consent list; if not, stop and ask. Never record private contact details there.
+2. **Make the headshot.** Download the supplied photo into its own new, empty temporary directory, then run `s/headshot <photo> <slug>` (slug is their name in lowercase hyphen-case, for example `michael-barton`). Every photo goes through `s/headshot`, never by hand, so all headshots share the same monochrome treatment, evened-out tonality, square crop and stripped metadata. Open the result and check the face is not cut off; if it is, rerun with `north` or another gravity.
+3. **Add them to the site.** Append an entry to the `advisers:` front matter of `docs/about/advisers.md`, with `name`, `role` and `photo: assets/advisers/<slug>.jpg`. Use the name and role exactly as recorded in step 1.
+4. **Check and commit.** Run the checks below, inspect the Advisers page at phone, tablet and desktop widths in light and dark schemes, and commit with a message like `feat(about): add <name> as an adviser`.
 
 ## Before Every Commit
 
