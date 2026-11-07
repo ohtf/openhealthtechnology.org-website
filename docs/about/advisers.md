@@ -7,6 +7,9 @@ advisers:
   - name: Michael Barton
     role: Technical adviser
     photo: assets/advisers/michael-barton.jpg
+  - name: Adrian Byrne
+    role: Former NHS CIO, Adviser
+    photo: assets/advisers/adrian-byrne.jpg
 ---
 
 # Advisers
