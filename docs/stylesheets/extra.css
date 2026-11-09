@@ -344,6 +344,10 @@
   list-style: none;
 }
 
+.md-typeset .ohtf-advisers__heading {
+  margin-top: 2.5rem;
+}
+
 /* Two across on phones, so a headshot never fills the whole screen. */
 @media screen and (max-width: 29.9375em) {
   .md-typeset ul.ohtf-advisers {

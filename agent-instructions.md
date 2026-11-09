@@ -46,7 +46,7 @@ Use this procedure for every adviser, in this order.
 
 1. **Record them in the planning material.** In `team/advisors.md` in the OHTF planning folder (ask the maintainer where it is), add them under `## Confirmed`, as a `### <display name>` heading with their details below: display name (including any title), role, photo source, and the date added. Check they are already in that file's "Listed Advisers" consent list; if not, stop and ask. Never record private contact details there.
 2. **Make the headshot.** Download the supplied photo into its own new, empty temporary directory, then run `s/headshot <photo> <slug>` (slug is their name in lowercase hyphen-case, for example `michael-barton`). Every photo goes through `s/headshot`, never by hand, so all headshots share the same monochrome treatment, evened-out tonality, square crop and stripped metadata. Open the result and check the face is not cut off; if it is, rerun with `north` or another gravity.
-3. **Add them to the site.** Append an entry to the `advisers:` front matter of `docs/about/advisers.md`, with `name`, `role` and `photo: assets/advisers/<slug>.jpg`. Use the name and role exactly as recorded in step 1.
+3. **Add them to the site.** Append an entry to the `advisers:` front matter of `docs/about/advisers.md` (or `founders:` for OHTF's founders, who are listed first; their founder and adviser role is distinct from their role as directors), with `name`, `role` and `photo: assets/advisers/<slug>.jpg`. Use the name and role exactly as recorded in step 1.
 4. **Check and commit.** Run the checks below, inspect the Advisers page at phone, tablet and desktop widths in light and dark schemes, and commit with a message like `feat(about): add <name> as an adviser`.
 
 ## Before Every Commit

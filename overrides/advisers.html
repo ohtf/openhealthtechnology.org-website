@@ -2,35 +2,44 @@
   SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
   SPDX-License-Identifier: CC-BY-SA-4.0
 
-  Advisers page template. The page's own Markdown renders first, then a grid
-  of advisers from the `advisers:` front matter of docs/about/advisers.md.
-  Each entry has `name` (including any title), `role` and `photo` (a
-  site-root path such as assets/advisers/jane-smith.jpg, made with
-  s/headshot).
+  Advisers page template. The page's own Markdown renders first, then a
+  Founders grid from the `founders:` front matter and an Advisers grid from
+  the `advisers:` front matter of docs/about/advisers.md. Each entry has
+  `name` (including any title), `role` and `photo` (a site-root path such as
+  assets/advisers/jane-smith.jpg, made with s/headshot).
 
   The photo has empty alt text because the name is printed next to it.
 -#}
 {% extends "main.html" %}
 
+{% macro people_grid(people) %}
+  <ul class="ohtf-advisers">
+    {% for person in people %}
+      <li class="ohtf-adviser">
+        <img
+          class="ohtf-adviser__photo"
+          src="{{ person.photo | url }}"
+          alt=""
+          width="400"
+          height="400"
+          loading="lazy"
+          decoding="async"
+        >
+        <h3 class="ohtf-adviser__name">{{ person.name }}</h3>
+        <p class="ohtf-adviser__role">{{ person.role }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+{% endmacro %}
+
 {% block content %}
   {{ super() }}
+  {% if page.meta.founders %}
+    <h2 id="founders" class="ohtf-advisers__heading">Founders</h2>
+    {{ people_grid(page.meta.founders) }}
+  {% endif %}
   {% if page.meta.advisers %}
-    <ul class="ohtf-advisers">
-      {% for adviser in page.meta.advisers %}
-        <li class="ohtf-adviser">
-          <img
-            class="ohtf-adviser__photo"
-            src="{{ adviser.photo | url }}"
-            alt=""
-            width="400"
-            height="400"
-            loading="lazy"
-            decoding="async"
-          >
-          <h2 class="ohtf-adviser__name">{{ adviser.name }}</h2>
-          <p class="ohtf-adviser__role">{{ adviser.role }}</p>
-        </li>
-      {% endfor %}
-    </ul>
+    <h2 id="advisers" class="ohtf-advisers__heading">Advisers</h2>
+    {{ people_grid(page.meta.advisers) }}
   {% endif %}
 {% endblock %}
