@@ -11,7 +11,7 @@ OHTF projects are built in the open, by clinicians, developers and anyone else w
 - **Use a project and report problems.** A clear bug report with steps to reproduce is a genuine contribution.
 - **Improve documentation.** Every page on this site has an edit link; the same is true of most project docs.
 - **Write code or tests.** Look for issues labelled `good first issue` or `help wanted` in [OHTF repositories](https://github.com/ohtf).
-- **Port a library.** Several projects, such as [NHS Number](../projects/index.md#nhs-number), publish language-agnostic test vectors so that a port in another language can prove it is correct.
+- **Port a library.** Several projects, such as [NHS Number (Python)](../projects/index.md#nhs-number-python), publish language-agnostic test vectors so that a port in another language can prove it is correct.
 - **Review clinical content.** Clinicians reviewing logic and safety documentation is as valuable as code.
 
 ## The basics

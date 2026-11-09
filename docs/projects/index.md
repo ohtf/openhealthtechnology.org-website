@@ -10,7 +10,7 @@ Each project's stage is defined in the [project lifecycle](../governance/project
 
 ## Foundation Projects
 
-### Open Clinical Terminology (`oct`)
+### `oct` - Open Clinical Terminology
 
 An open, community-owned clinical terminology, developed clean-room from contributions by clinicians, developers and others. `oct` defines concept identifiers and internationalised descriptions; hierarchies are left to separate ontologies that reference `oct` identifiers.
 
@@ -18,7 +18,7 @@ An open, community-owned clinical terminology, developed clean-room from contrib
 
 [Website](https://openterminology.org/) · [Source](https://github.com/ohtf/oct)
 
-### NHS Number
+### NHS Number (Python)
 
 The `nhs-number` Python package validates, normalises, formats and generates NHS Numbers (including the Scottish CHI and Northern Irish H&C ranges), with region checks. A shared, language-agnostic set of test vectors lets any port to another language prove it gives the same answers.
 
