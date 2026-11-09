@@ -18,6 +18,8 @@ hero:
       link: projects/
     - label: Why OHTF exists
       link: about/why-ohtf/
+    - label: Join the mailing list
+      link: https://openhealthhub.org/t/open-health-technology-foundation-cic-start-here-join-the-mailing-list/3094
   code:
     alt: "A terminal session installing the nhs-number Python library and validating an NHS Number, which returns True."
     caption: "nhs-number, an OHTF Foundation Project."
@@ -105,6 +107,7 @@ Some health organisations need more than code: a hosted API, an assured deployme
 
 ## Get involved
 
+- **Join the mailing list** for news about OHTF and its projects. It runs on the [Open Health Hub forum](https://openhealthhub.org/t/open-health-technology-foundation-cic-start-here-join-the-mailing-list/3094), where you can sign up and follow announcements.
 - **Use the projects** and report what breaks. Issues on GitHub are the fastest route.
 - **Contribute code or documentation.** Start with [contributing to OHTF projects](community/index.md).
 - **Bring a project** that needs a neutral, long-term home: [propose a project](projects/bring-a-project.md).

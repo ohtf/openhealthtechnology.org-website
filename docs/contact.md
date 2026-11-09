@@ -14,6 +14,10 @@ OHTF works in the open wherever it can, so public questions are best asked publi
 
 Partnerships, hosting and support, bringing a project to OHTF, press, or anything else.
 
+## News and updates
+
+To hear about OHTF and its projects, [join the mailing list](https://openhealthhub.org/t/open-health-technology-foundation-cic-start-here-join-the-mailing-list/3094) on the Open Health Hub forum.
+
 ## About a specific project
 
 Open an issue on that project's repository. The [projects page](projects/index.md) links to each one. This is the quickest way to reach the people who maintain it.
