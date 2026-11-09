@@ -17,6 +17,9 @@ advisers:
   - name: Adrian Byrne
     role: Former NHS CIO, Adviser
     photo: assets/advisers/adrian-byrne.jpg
+  - name: Prof Joe McDonald
+    role: NHS psychiatrist and IT expert
+    photo: assets/advisers/joe-mcdonald.jpg
 ---
 
 # Advisers
