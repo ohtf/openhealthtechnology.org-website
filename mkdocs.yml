@@ -63,6 +63,9 @@ extra:
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/ohtfdotorg
       name: OHTF on X
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/openhealthtech.bsky.social
+      name: OHTF on Bluesky
     - icon: lucide/mail
       link: mailto:hello@openhealthtechnology.org
       name: Email OHTF
