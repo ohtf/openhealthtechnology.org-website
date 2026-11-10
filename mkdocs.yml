@@ -60,6 +60,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/ohtf
       name: OHTF on GitHub
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/ohtfdotorg
+      name: OHTF on X
     - icon: lucide/mail
       link: mailto:hello@openhealthtechnology.org
       name: Email OHTF
