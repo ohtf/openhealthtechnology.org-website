@@ -26,6 +26,22 @@ The `nhs-number` Python package validates, normalises, formats and generates NHS
 
 [Documentation](https://ohtf.github.io/nhs-number-py/) · [Source](https://github.com/ohtf/nhs-number-py) · [PyPI](https://pypi.org/project/nhs-number/)
 
+### clincalc
+
+Open, community-auditable clinical calculators. A single Rust engine computes every score, and every surface (command line, Python package, MCP tool, REST API, desktop and web interfaces) is driven from it, so a result is identical wherever it appears. Each calculator cites primary literature, is tested against published vectors and records its licence. It is published for software development, research, education and evaluation, not for making decisions about an individual patient's care on its own.
+
+**Status:** Incubating.
+
+[Documentation](https://ohtf.github.io/clincalc/) · [Source](https://github.com/ohtf/clincalc)
+
+### Digital PEWS
+
+A charting and scoring component for the NHS National Paediatric Early Warning System (NPEWS) observation chart, built in plain HTML, CSS and JavaScript with no framework or build step, and integrating with electronic patient records through SMART on FHIR. It is a bounded component for a wider clinical system, not a complete EPR workflow. OHTF continues the project independently following the Royal College of Paediatrics and Child Health's indefinite pause of its PEWS work; existing attribution is retained. No clinically approved release has been designated; its clinical safety status is set out in the project's [`SAFETY.md`](https://github.com/ohtf/digital-pews/blob/main/SAFETY.md).
+
+**Status:** Incubating.
+
+[Demo](https://ohtf.github.io/digital-pews/demo) · [Source](https://github.com/ohtf/digital-pews)
+
 ## Candidate projects
 
 ### NHS Number for Rust
@@ -39,12 +55,6 @@ The `nhs-number` Rust crate, by Joel Parker Henderson, implements the same NHS N
 A local-first SNOMED CT toolchain. One binary takes a raw RF2 release and turns it into NDJSON, SQLite, Parquet, Markdown, refsets and codelists, with fast local queries and tool use for LLMs, without depending on a terminology server.
 
 [Documentation](https://pacharanero.github.io/sct/) · [Source](https://github.com/pacharanero/sct)
-
-### clincalc
-
-Open, community-auditable clinical calculators. A single Rust engine computes every score, and every surface (command line, Python package, MCP tool, REST API, desktop and web interfaces) is driven from it, so a result is identical wherever it appears. Each calculator cites primary literature, is tested against published vectors and records its licence.
-
-[Documentation](https://pacharanero.github.io/clincalc/) · [Source](https://github.com/pacharanero/clincalc)
 
 ### GitEHR
 
