@@ -78,6 +78,7 @@ nav:
   - About:
       - about/index.md
       - Why OHTF exists: about/why-ohtf.md
+      - "The Chamberlen forceps: why openness matters": about/chamberlen-forceps.md
       - Advisers: about/advisers.md
   - Projects:
       - projects/index.md

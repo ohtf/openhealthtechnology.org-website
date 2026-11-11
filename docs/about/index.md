@@ -55,3 +55,5 @@ Its code and Foundation Projects live in the open at [github.com/ohtf](https://g
 OHTF grew out of practical experience. The `nhs-number` library was previously moved to the `uk-fci` GitHub organisation, associated with the Faculty of Clinical Informatics (FCI). When the Faculty closed, that home stopped being viable, and the name could not be reused. It now lives at [github.com/ohtf/nhs-number-py](https://github.com/ohtf/nhs-number-py). At the same time, contributors to open-source clinical libraries kept running into the same question from their employers: whose code is this, and what happens if something goes wrong? A named, neutral, community-owned organisation is a better answer to both problems than a collection of personal repositories.
 
 [Why OHTF, rather than an existing foundation?](why-ohtf.md)
+
+[The Chamberlen forceps: why openness matters](chamberlen-forceps.md)
