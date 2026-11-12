@@ -16,7 +16,7 @@ OHTF's [founding documents](../transparency/incorporation.md) are published in f
 | Company number | [17544421](https://find-and-update.company-information.service.gov.uk/company/17544421) |
 | Incorporated | 27 October 2026 |
 | Registered in | England and Wales |
-| Registered office | 5 Brooklands Place, Brooklands Road, Sale, Cheshire, M33 5SD, United Kingdom |
+| Registered office | 5 Brooklands Road, Sale, M33 3SD, United Kingdom |
 | Company type | Private company limited by guarantee without share capital; community interest company |
 
 A change of name to **Open Health Technology Foundation CIC** is in progress.
