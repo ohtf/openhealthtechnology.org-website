@@ -406,3 +406,24 @@
 [data-md-color-scheme="slate"] .md-content .md-typeset .md-button:not(.md-button--primary):focus-visible {
   background-color: rgba(158, 183, 177, 0.15);
 }
+
+/* Product screenshots in page content. */
+.md-typeset figure.ohtf-screenshot {
+  margin: 0 0 1.5rem;
+}
+
+.md-typeset figure.ohtf-screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+}
+
+.md-typeset figure.ohtf-screenshot figcaption {
+  max-width: none;
+  margin-top: 0.5rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.7rem;
+  font-style: normal;
+}

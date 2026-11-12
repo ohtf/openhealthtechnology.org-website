@@ -4,6 +4,11 @@ description: Digital PEWS, the open-source National Paediatric Early Warning Sys
 
 # Digital PEWS
 
+<figure class="ohtf-screenshot" markdown>
+![The Digital PEWS observation chart for a child aged 5 to 12. A red banner at the top reads Emergency, PEWS 19, call 2222 immediately. Below it, respiratory rate, oxygen saturation, oxygen delivery, heart rate and blood pressure are plotted over 24 hours against colour-coded scoring bands, showing the child's observations deteriorating into the high-concern bands.](../assets/projects/digital-pews-chart.png){ width="1084" height="945" }
+<figcaption>The Digital PEWS chart, showing demonstration data for a deteriorating child.</figcaption>
+</figure>
+
 Digital PEWS is an open-source charting and scoring component for the NHS National Paediatric Early Warning System (NPEWS) observation chart. It calculates NPEWS scores from observations recorded in your electronic patient record (EPR) and draws the chart clinicians recognise, inside the system they already use. Patient data stays in your EPR.
 
 It is an OHTF Foundation Project. The work began at the Royal College of Paediatrics and Child Health (RCPCH); OHTF continues it independently following RCPCH's indefinite pause of its PEWS work, with existing attribution retained.
