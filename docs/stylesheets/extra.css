@@ -382,3 +382,27 @@
   line-height: 1.4;
   color: var(--md-default-fg-color--light);
 }
+
+/* In-page buttons (for example the Digital PEWS calls to action). The
+   theme's default secondary button is low-contrast grey; outline it in
+   the brand green instead. The hero has its own button styles above. */
+.md-content .md-typeset .md-button:not(.md-button--primary) {
+  border: 2px solid var(--ohtf-surgical-green);
+  background-color: transparent;
+  color: var(--ohtf-surgical-green);
+}
+
+.md-content .md-typeset .md-button:not(.md-button--primary):hover,
+.md-content .md-typeset .md-button:not(.md-button--primary):focus-visible {
+  background-color: var(--ohtf-surgical-green-10);
+}
+
+[data-md-color-scheme="slate"] .md-content .md-typeset .md-button:not(.md-button--primary) {
+  border-color: var(--ohtf-surgical-green-40);
+  color: var(--ohtf-surgical-green-20);
+}
+
+[data-md-color-scheme="slate"] .md-content .md-typeset .md-button:not(.md-button--primary):hover,
+[data-md-color-scheme="slate"] .md-content .md-typeset .md-button:not(.md-button--primary):focus-visible {
+  background-color: rgba(158, 183, 177, 0.15);
+}

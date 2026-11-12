@@ -36,6 +36,8 @@ Open, community-auditable clinical calculators. A single Rust engine computes ev
 
 ### Digital PEWS
 
+**[Digital PEWS: integration, training and support for NHS organisations](digital-pews.md)**
+
 A charting and scoring component for the NHS National Paediatric Early Warning System (NPEWS) observation chart, built in plain HTML, CSS and JavaScript with no framework or build step, and integrating with electronic patient records through SMART on FHIR. It is a bounded component for a wider clinical system, not a complete EPR workflow. OHTF continues the project independently following the Royal College of Paediatrics and Child Health's indefinite pause of its PEWS work; existing attribution is retained. No clinically approved release has been designated; its clinical safety status is set out in the project's [`SAFETY.md`](https://github.com/ohtf/digital-pews/blob/main/SAFETY.md).
 
 **Status:** Incubating.

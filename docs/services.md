@@ -8,6 +8,8 @@ The code in Foundation Projects is free to use, study, change and share, and it 
 
 Service income pays for the maintenance, security fixes and safety work that keep the shared projects healthy. It does not buy exclusive rights, and it never makes a Foundation Project less open. See the [open-source commitment](governance/open-source-commitment.md).
 
+For example, OHTF provides [integration, training and support for Digital PEWS](projects/digital-pews.md) to NHS organisations.
+
 ## Hosted services
 
 Managed, hosted APIs built on Foundation Projects, for organisations that would rather call an endpoint than run infrastructure. The same software is always available to self-host: a hosted service is a convenience, not a lock-in.

@@ -87,7 +87,7 @@ Foundation Projects are maintained under [github.com/ohtf](https://github.com/oh
 | [`oct` - Open Clinical Terminology](projects/index.md#oct-open-clinical-terminology) | An open, community-owned clinical terminology. | Foundation Project |
 | [NHS Number (Python)](projects/index.md#nhs-number-python) | Validate, normalise and generate NHS Numbers in Python. | Foundation Project |
 | [clincalc](projects/index.md#clincalc) | Open, auditable clinical calculators, each citing primary literature and tested against published vectors. | Foundation Project |
-| [Digital PEWS](projects/index.md#digital-pews) | A charting and scoring component for the National Paediatric Early Warning System, with SMART on FHIR. | Foundation Project |
+| [Digital PEWS](projects/digital-pews.md) | A charting and scoring component for the National Paediatric Early Warning System, with SMART on FHIR. | Foundation Project |
 | [sct](projects/index.md#sct) | A local-first SNOMED CT toolchain: from RF2 release to SQL, Parquet, Markdown and fast local queries. | Candidate |
 | [GitEHR](projects/index.md#gitehr) | A decentralised, multi-contributor electronic health record that uses Git as its storage layer. | Candidate |
 

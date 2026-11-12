@@ -82,6 +82,7 @@ nav:
       - Advisers: about/advisers.md
   - Projects:
       - projects/index.md
+      - Digital PEWS: projects/digital-pews.md
       - Bring a project: projects/bring-a-project.md
   - Services: services.md
   - Governance:
