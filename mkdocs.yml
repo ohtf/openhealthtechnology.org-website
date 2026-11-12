@@ -82,6 +82,9 @@ nav:
       - Advisers: about/advisers.md
   - Projects:
       - projects/index.md
+      - oct: projects/oct.md
+      - NHS Number (Python): projects/nhs-number.md
+      - clincalc: projects/clincalc.md
       - Digital PEWS: projects/digital-pews.md
       - Bring a project: projects/bring-a-project.md
   - Services: services.md
@@ -97,6 +100,7 @@ nav:
       - Security: community/security.md
   - Transparency:
       - transparency/index.md
+      - Why we publish so much: transparency/why-we-publish.md
       - Incorporation: transparency/incorporation.md
       - Articles of Association: transparency/articles-of-association.md
   - Contact: contact.md

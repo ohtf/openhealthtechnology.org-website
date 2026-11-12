@@ -427,3 +427,9 @@
   font-size: 0.7rem;
   font-style: normal;
 }
+
+/* Two-column fact tables (Key facts, company details) are written with an
+   empty Markdown header row; hide it rather than show a blank band. */
+.md-typeset table:not([class]) thead tr:has(th:empty) {
+  display: none;
+}

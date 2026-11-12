@@ -6,6 +6,8 @@ description: What Open Health Technology CIC publishes about itself, beyond what
 
 OHTF asks the projects it looks after to work in the open. It should be held to the same standard. So we publish our own founding documents, decisions, finances and operations by default, including much that Companies House and the CIC Regulator do not require us to publish.
 
+Why this matters to health buyers in particular is set out in [why we publish so much](why-we-publish.md).
+
 The test we apply is simple: if a reasonable member of the public, a contributor or an NHS organisation would want to know it, and publishing it harms nobody, we publish it.
 
 ## Published documents

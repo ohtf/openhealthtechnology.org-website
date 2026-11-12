@@ -6,7 +6,7 @@ description: Foundation Projects and candidate projects at the Open Health Techn
 
 **Foundation Projects** live at [github.com/ohtf](https://github.com/ohtf), with named maintainers and OHTF's [governance](../governance/index.md). **Candidate projects** are public, open-source projects going through [onboarding](bring-a-project.md); until they join, each is governed by its original home, linked below. When a project joins, its repository transfers to github.com/ohtf and the old address redirects.
 
-Each project's stage is defined in the [project lifecycle](../governance/project-lifecycle.md).
+Each project's stage is defined in the [project lifecycle](../governance/project-lifecycle.md). Each Foundation Project has its own page with key facts, including its clinical safety and medical device position; see [why we publish so much](../transparency/why-we-publish.md).
 
 ## Foundation Projects
 
@@ -16,7 +16,7 @@ An open, community-owned clinical terminology, developed clean-room from contrib
 
 **Status:** Incubating.
 
-[Website](https://openterminology.org/) · [Source](https://github.com/ohtf/oct)
+[Project page and key facts](oct.md) · [Website](https://openterminology.org/) · [Source](https://github.com/ohtf/oct)
 
 ### NHS Number (Python)
 
@@ -24,7 +24,7 @@ The `nhs-number` Python package validates, normalises, formats and generates NHS
 
 **Status:** Incubating.
 
-[Documentation](https://ohtf.github.io/nhs-number-py/) · [Source](https://github.com/ohtf/nhs-number-py) · [PyPI](https://pypi.org/project/nhs-number/)
+[Project page and key facts](nhs-number.md) · [Documentation](https://ohtf.github.io/nhs-number-py/) · [Source](https://github.com/ohtf/nhs-number-py) · [PyPI](https://pypi.org/project/nhs-number/)
 
 ### clincalc
 
@@ -32,17 +32,15 @@ Open, community-auditable clinical calculators. A single Rust engine computes ev
 
 **Status:** Incubating.
 
-[Documentation](https://ohtf.github.io/clincalc/) · [Source](https://github.com/ohtf/clincalc)
+[Project page and key facts](clincalc.md) · [Documentation](https://ohtf.github.io/clincalc/) · [Source](https://github.com/ohtf/clincalc)
 
 ### Digital PEWS
-
-**[Digital PEWS: integration, training and support for NHS organisations](digital-pews.md)**
 
 A charting and scoring component for the NHS National Paediatric Early Warning System (NPEWS) observation chart, built in plain HTML, CSS and JavaScript with no framework or build step, and integrating with electronic patient records through SMART on FHIR. It is a bounded component for a wider clinical system, not a complete EPR workflow. OHTF continues the project independently following the Royal College of Paediatrics and Child Health's indefinite pause of its PEWS work; existing attribution is retained. No clinically approved release has been designated; its clinical safety status is set out in the project's [`SAFETY.md`](https://github.com/ohtf/digital-pews/blob/main/SAFETY.md).
 
 **Status:** Incubating.
 
-[Demo](https://ohtf.github.io/digital-pews/demo) · [Source](https://github.com/ohtf/digital-pews)
+[Project page and key facts](digital-pews.md) · [Demo](https://ohtf.github.io/digital-pews/demo) · [Source](https://github.com/ohtf/digital-pews)
 
 ## Candidate projects
 
