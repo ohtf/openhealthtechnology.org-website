@@ -20,6 +20,9 @@ advisers:
   - name: Prof Joe McDonald
     role: NHS psychiatrist and IT expert
     photo: assets/advisers/joe-mcdonald.jpg
+  - name: Andy Law
+    role: Technical adviser, NHS Number core team
+    photo: assets/advisers/andy-law.jpg
 ---
 
 # Advisers
