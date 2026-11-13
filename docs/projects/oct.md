@@ -45,6 +45,12 @@ Description:  Delusions of grandeur   (en-GB)
 
 Why is all this public? See [why we publish so much](../transparency/why-we-publish.md).
 
+## Core team
+
+The people who look after this project day to day:
+
+- [Dr Marcus Baw](../about/advisers.md)
+
 ## Get involved
 
 Discussion happens in the [`oct` category on Open Health Hub](https://openhealthhub.org/c/oct/58). Proposed changes to the terminology are made as pull requests to the [repository](https://github.com/ohtf/oct), and design decisions are open for discussion as RFCs.

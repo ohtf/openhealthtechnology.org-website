@@ -70,6 +70,13 @@ An annual support agreement at a fixed price agreed in advance, so there are no 
 
 Paid support never makes Digital PEWS less open. Improvements made during support work go back into the open project unless they are specific to your deployment, so every organisation using it benefits. See OHTF's [open-source commitment](../governance/open-source-commitment.md).
 
+## Core team
+
+The people who look after this project day to day:
+
+- [Dr Marcus Baw](../about/advisers.md)
+- [Michael Barton](../about/advisers.md)
+
 ## Talk to us
 
 To discuss integration, training or a support agreement for your organisation, email the Digital PEWS team at **[pews@openhealthtechnology.org](mailto:pews@openhealthtechnology.org?subject=Digital%20PEWS%20support)**.

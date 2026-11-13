@@ -433,3 +433,11 @@
 .md-typeset table:not([class]) thead tr:has(th:empty) {
   display: none;
 }
+
+/* Core team line under an adviser's role (overrides/advisers.html). */
+.md-typeset .ohtf-adviser__team {
+  margin: 0.2rem 0 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--md-default-fg-color--light);
+}

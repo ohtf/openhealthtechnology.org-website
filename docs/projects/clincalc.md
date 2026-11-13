@@ -53,6 +53,12 @@ Output from version 0.5.0 of the Python package, installed from PyPI, using an i
 
 Why is all this public? See [why we publish so much](../transparency/why-we-publish.md).
 
+## Core team
+
+The people who look after this project day to day:
+
+- [Dr Marcus Baw](../about/advisers.md) (maintainer)
+
 ## Get involved
 
 Clinicians reviewing a calculator's logic, references and test vectors is as valuable as code. Report problems or suggest new calculators as [issues](https://github.com/ohtf/clincalc/issues).

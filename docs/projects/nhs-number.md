@@ -49,6 +49,13 @@ Output from version 3.0.0, installed from PyPI.
 
 Why is all this public? See [why we publish so much](../transparency/why-we-publish.md).
 
+## Core team
+
+The people who look after this project day to day:
+
+- [Andy Law](../about/advisers.md)
+- [Dr Marcus Baw](../about/advisers.md)
+
 ## Get involved
 
 Report problems or suggest improvements as [issues](https://github.com/ohtf/nhs-number-py/issues). If you are implementing NHS Number handling in another language, the [guide for other languages](https://ohtf.github.io/nhs-number-py/other-languages/) explains how to use the shared test vectors.
