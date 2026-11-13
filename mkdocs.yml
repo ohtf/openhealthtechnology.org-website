@@ -18,8 +18,8 @@ theme:
   variant: modern
   custom_dir: overrides
   language: en
-  logo: assets/ohtf-mark.svg
-  favicon: assets/ohtf-mark.svg
+  logo: assets/ohtf-avatar.svg
+  favicon: assets/ohtf-avatar.svg
   font:
     text: Inter
     code: JetBrains Mono

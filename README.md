@@ -33,7 +33,8 @@ It is not the planning or governance working repository for OHTF, and it holds n
 | `docs/` | Page content in Markdown. |
 | `docs/index.md` | Landing page. Hero copy lives in its `hero:` front matter. |
 | `docs/stylesheets/extra.css` | Brand colour tokens and landing-page styles. |
-| `docs/assets/ohtf-mark.svg` | OHTF mark, also used as the favicon. |
+| `docs/assets/ohtf-avatar.svg` | OHTF forceps mark in a Surgical Green circle: the header logo, the favicon and the GitHub org profile image. |
+| `docs/assets/ohtf-mark.svg` | The forceps mark alone in Surgical Green, for larger uses on light backgrounds. |
 | `docs/CNAME` | Custom domain for GitHub Pages. |
 | `overrides/home.html` | Landing-page template. |
 | `docs/about/advisers.md` | Advisers page. Each adviser (name with any title, role, photo) is an entry in its `advisers:` front matter, rendered by `overrides/advisers.html`. |
