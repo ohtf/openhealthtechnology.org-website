@@ -54,6 +54,8 @@ The `nhs-number` Rust crate, by Joel Parker Henderson, implements the same NHS N
 
 A local-first SNOMED CT toolchain. One binary takes a raw RF2 release and turns it into NDJSON, SQLite, Parquet, Markdown, refsets and codelists, with fast local queries and tool use for LLMs, without depending on a terminology server.
 
+**Status:** Candidate. **Maintainer:** Marcus Baw. The project remains governed at its current repository; its local-first, open-source and clinically focused purpose is unchanged. Source code is licensed AGPL-3.0-or-later. SNOMED CT data remains separately licensed by SNOMED International; the software licence does not grant rights to redistribute that data.
+
 [Documentation](https://pacharanero.github.io/sct/) · [Source](https://github.com/pacharanero/sct)
 
 ### GitEHR
