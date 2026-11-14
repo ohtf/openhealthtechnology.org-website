@@ -45,6 +45,9 @@ advisers:
     photo: assets/advisers/mark-bailey.jpg
     core_teams:
       - name: Turva
+  - name: Theo Vararu
+    role: Engineering and open source adviser
+    photo: assets/advisers/theo-vararu.jpg
 ---
 
 # Advisers
