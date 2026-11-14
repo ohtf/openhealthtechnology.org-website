@@ -40,6 +40,9 @@ advisers:
     core_teams:
       - name: NHS Number
         page: projects/nhs-number/
+  - name: Dr Mark Bailey
+    role: Consultant physician
+    photo: assets/advisers/mark-bailey.jpg
 ---
 
 # Advisers
