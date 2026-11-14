@@ -62,8 +62,8 @@ For visual changes, inspect the rendered site at phone (390x844), tablet (768x10
 ## Git Workflow
 
 - Commit each validated, coherent change with a conventional commit message, signed off (`git commit -s`).
-- Do not push unless the user asks.
+- Push each validated commit to `main` without waiting to be asked. Changes are atomic, conventional commits that are easy to roll back, and every push redeploys the site, so check the deploy succeeds and the live page shows the change (standing permission from Marcus Baw, 2026-11-14).
 
 ## Approval Required
 
-Ask before pushing, changing GitHub Pages or DNS settings, editing workflow permissions, or publishing anything that describes OHTF's legal status, governance or partners differently from the planning material.
+Ask before force-pushing, changing GitHub Pages or DNS settings, editing workflow permissions, or publishing anything that describes OHTF's legal status, governance or partners differently from the planning material.
