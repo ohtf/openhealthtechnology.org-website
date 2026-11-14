@@ -453,3 +453,26 @@
 .md-header__button.md-logo svg {
   height: 2.4rem;
 }
+
+/* Note admonitions in brand tints rather than the theme's default blue. */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: var(--ohtf-surgical-green-40);
+  background-color: var(--ohtf-surgical-green-10);
+}
+
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before {
+  background-color: var(--ohtf-surgical-green);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.note,
+[data-md-color-scheme="slate"] .md-typeset details.note {
+  border-color: var(--ohtf-surgical-green-80);
+  background-color: rgba(158, 183, 177, 0.1);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .note > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .note > summary::before {
+  background-color: var(--ohtf-surgical-green-40);
+}

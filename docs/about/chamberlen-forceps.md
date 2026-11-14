@@ -6,7 +6,7 @@ description: The Chamberlen forceps as a historical warning about secrecy and si
 
 OHTF exists because health technology should not depend on one vendor, one employer or one person's private knowledge. The Chamberlen forceps are an unusually vivid historical warning about what can happen when a useful health technology is held as a secret.
 
-This is not a claim that forceps are simple, harmless, or a model for modern care. Their history includes trauma, contested professional power and men displacing women who had long practised midwifery. Nor is every detail certain: historians cannot establish which Chamberlen first made the instrument. But the central fact is clear. The Chamberlen family kept their method for assisted delivery private for roughly a century, passing it through the family rather than enabling wider scrutiny, learning and improvement.[^dunn]
+The Chamberlen family kept their method for assisted delivery private for roughly a century, passing it through the family rather than enabling wider scrutiny, learning and improvement.[^dunn]
 
 ## A technique kept behind closed doors
 
@@ -41,6 +41,10 @@ OHTF keeps Foundation Project code, build and deployment configuration, tests an
 Openness is not a substitute for clinical safety, regulation, information governance or competent implementation. A public repository is not a safety case. OHTF requires each project to be honest about its lifecycle, intended use, maintainers, security route and clinical-safety position. See the [project lifecycle](../governance/project-lifecycle.md) and [how to bring a project to OHTF](../projects/bring-a-project.md).
 
 The lesson of the Chamberlens is not that every health technology must be given away without support. It is that the knowledge and infrastructure on which care depends must not be trapped in a box that only one group can open.
+
+!!! note "A note on the history"
+
+    This is not a claim that forceps are simple, harmless, or a model for modern care. Their history includes trauma, contested professional power and men displacing women who had long practised midwifery. Nor is every detail certain: historians cannot establish which Chamberlen first made the instrument. The central fact, that the family kept the method private for roughly a century, is well established.[^dunn]
 
 ## Sources
 
