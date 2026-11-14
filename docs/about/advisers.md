@@ -43,6 +43,8 @@ advisers:
   - name: Dr Mark Bailey
     role: Consultant physician
     photo: assets/advisers/mark-bailey.jpg
+    core_teams:
+      - name: Turva
 ---
 
 # Advisers

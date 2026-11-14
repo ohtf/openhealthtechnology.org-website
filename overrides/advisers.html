@@ -7,8 +7,9 @@
   the `advisers:` front matter of docs/about/advisers.md. Each entry has
   `name` (including any title), `role` and `photo` (a site-root path such as
   assets/advisers/jane-smith.jpg, made with s/headshot), and optionally
-  `core_teams`, a list of `name` and `page` (for example projects/oct/)
-  rendered as a linked "... core team" line under the role.
+  `core_teams`, a list of `name` and optional `page` (for example
+  projects/oct/) rendered as a "... core team" line under the role; the
+  name is linked when it has a page and plain text when it does not.
 
   The photo has empty alt text because the name is printed next to it.
 -#}
@@ -33,7 +34,7 @@
           <p class="ohtf-adviser__team">
             {%- for team in person.core_teams -%}
               {%- if not loop.first %}{% if loop.last %} and {% else %}, {% endif %}{% endif -%}
-              <a href="{{ team.page | url }}">{{ team.name }}</a>
+              {%- if team.page %}<a href="{{ team.page | url }}">{{ team.name }}</a>{% else %}{{ team.name }}{% endif -%}
             {%- endfor %} core team
           </p>
         {% endif %}
