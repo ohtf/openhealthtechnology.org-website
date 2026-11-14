@@ -3,6 +3,7 @@ template: advisers.html
 description: The clinical, technical and specialist advisers to the Open Health Technology Foundation.
 # Each founder and adviser needs a name (including any title), a role, and a
 # photo made with s/headshot. Keep each list in the order it should appear.
+# affiliation (optional) is their post elsewhere, shown on its own line.
 # core_teams (optional) lists the Foundation Projects whose core team they
 # are on; each project page lists its core team too, so keep both in step.
 founders:
@@ -48,6 +49,10 @@ advisers:
   - name: Theo Vararu
     role: Engineering and open source adviser
     photo: assets/advisers/theo-vararu.jpg
+  - name: Dr Tony Shannon
+    role: Open source and strategic adviser
+    affiliation: Head of Digital Services, OOCIO, gov.ie
+    photo: assets/advisers/tony-shannon.jpg
 ---
 
 # Advisers

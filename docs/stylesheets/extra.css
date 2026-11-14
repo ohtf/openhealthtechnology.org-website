@@ -434,7 +434,9 @@
   display: none;
 }
 
-/* Core team line under an adviser's role (overrides/advisers.html). */
+/* Affiliation and core team lines under an adviser's role
+   (overrides/advisers.html). */
+.md-typeset .ohtf-adviser__affiliation,
 .md-typeset .ohtf-adviser__team {
   margin: 0.2rem 0 0;
   font-size: 0.75rem;

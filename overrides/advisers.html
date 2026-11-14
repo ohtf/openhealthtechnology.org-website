@@ -5,7 +5,8 @@
   Advisers page template. The page's own Markdown renders first, then a
   Founders grid from the `founders:` front matter and an Advisers grid from
   the `advisers:` front matter of docs/about/advisers.md. Each entry has
-  `name` (including any title), `role` and `photo` (a site-root path such as
+  `name` (including any title), `role`, an optional `affiliation` (their
+  post elsewhere, shown on its own line) and `photo` (a site-root path such as
   assets/advisers/jane-smith.jpg, made with s/headshot), and optionally
   `core_teams`, a list of `name` and optional `page` (for example
   projects/oct/) rendered as a "... core team" line under the role; the
@@ -30,6 +31,9 @@
         >
         <h3 class="ohtf-adviser__name">{{ person.name }}</h3>
         <p class="ohtf-adviser__role">{{ person.role }}</p>
+        {% if person.affiliation %}
+          <p class="ohtf-adviser__affiliation">{{ person.affiliation }}</p>
+        {% endif %}
         {% if person.core_teams %}
           <p class="ohtf-adviser__team">
             {%- for team in person.core_teams -%}
