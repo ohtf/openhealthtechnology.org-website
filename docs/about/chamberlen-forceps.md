@@ -1,8 +1,12 @@
 ---
-description: The Chamberlen forceps as a historical warning about secrecy and single points of failure in health technology.
+description: Why OHTF's logo is a pair of Chamberlen forceps - a historical warning about secrecy and single points of failure in health technology.
 ---
 
-# The Chamberlen forceps: why openness matters
+# Our logo: why we chose the Chamberlen forceps
+
+![](../assets/ohtf-mark.svg){ .ohtf-logo-figure width="80" height="129" }
+
+OHTF's logo is a pair of Chamberlen forceps. We chose them because their story is a warning we never want to repeat.
 
 OHTF exists because health technology should not depend on one vendor, one employer or one person's private knowledge. The Chamberlen forceps are an unusually vivid historical warning about what can happen when a useful health technology is held as a secret.
 

@@ -476,3 +476,13 @@
 [data-md-color-scheme="slate"] .md-typeset .note > summary::before {
   background-color: var(--ohtf-surgical-green-40);
 }
+
+/* The forceps mark shown on the logo story page. */
+.md-typeset img.ohtf-logo-figure {
+  display: block;
+  margin: 0 0 1.25rem;
+}
+
+[data-md-color-scheme="slate"] .md-typeset img.ohtf-logo-figure {
+  filter: brightness(0) invert(0.86);
+}
