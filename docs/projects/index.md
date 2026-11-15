@@ -1,10 +1,10 @@
 ---
-description: Foundation Projects and candidate projects at the Open Health Technology Foundation.
+description: Foundation Projects, candidate projects and experimental projects at the Open Health Technology Foundation.
 ---
 
 # Projects
 
-**Foundation Projects** live at [github.com/ohtf](https://github.com/ohtf), with named maintainers and OHTF's [governance](../governance/index.md). **Candidate projects** are public, open-source projects going through [onboarding](bring-a-project.md); until they join, each is governed by its original home, linked below. When a project joins, its repository transfers to github.com/ohtf and the old address redirects.
+**Foundation Projects** live at [github.com/ohtf](https://github.com/ohtf), with named maintainers and OHTF's [governance](../governance/index.md). **[Candidate projects](candidates.md)** are public, open-source projects going through [onboarding](bring-a-project.md); until they join, each is governed by its original home. When a project joins, its repository transfers to github.com/ohtf and the old address redirects. **Experimental projects** are early work started within OHTF that is not yet ready for use.
 
 Each project's stage is defined in the [project lifecycle](../governance/project-lifecycle.md). Each Foundation Project has its own page with key facts, including its clinical safety and medical device position; see [why we publish so much](../transparency/why-we-publish.md).
 
@@ -44,55 +44,19 @@ A charting and scoring component for the NHS National Paediatric Early Warning S
 
 ## Candidate projects
 
-### NHS Number for Rust
+Public, open-source projects proposed or invited to join OHTF and going through onboarding: NHS Number for Rust, sct, GitEHR, anarchie, Green Book, Medical Markdown, SAFETY.md and Clinicians Who Code: The Opinionated Handbook.
 
-The `nhs-number` Rust crate, by Joel Parker Henderson, implements the same NHS Number checks and is tested against the same shared vectors.
+[See the candidate projects](candidates.md)
 
-[Source](https://github.com/joelparkerhenderson/nhs-number-using-rust) · [crates.io](https://crates.io/crates/nhs-number)
+## Experimental projects
 
-### sct
+Early work started within OHTF and not yet proposed as a Foundation Project. Experimental projects are not ready for use and may change completely or stop.
 
-A local-first SNOMED CT toolchain. One binary takes a raw RF2 release and turns it into NDJSON, SQLite, Parquet, Markdown, refsets and codelists, with fast local queries and tool use for LLMs, without depending on a terminology server.
+### Muster
 
-**Status:** Candidate. **Maintainer:** Marcus Baw. The project remains governed at its current repository; its local-first, open-source and clinically focused purpose is unchanged. Source code is licensed AGPL-3.0-or-later. SNOMED CT data remains separately licensed by SNOMED International; the software licence does not grant rights to redistribute that data.
+An open-source, LAN-first staff panic alarm for GP practices and other small workplaces.
 
-[Documentation](https://pacharanero.github.io/sct/) · [Source](https://github.com/pacharanero/sct)
-
-### GitEHR
-
-A Git-based, decentralised, multi-contributor electronic health record. Clinical history is stored as files in a Git repository, inheriting Git's audit trail, integrity checks and offline working.
-
-[Website](https://gitehr.org/) · [Source](https://github.com/gitehr/gitehr)
-
-### anarchie
-
-A complete openEHR clinical data repository, written in Rust, that uses Git-tracked flat files instead of a database server for persistence.
-
-[Documentation](https://pacharanero.github.io/anarchie/) · [Source](https://github.com/pacharanero/anarchie)
-
-### Green Book
-
-The UK childhood immunisation schedule (Green Book chapter 11) is published as PDFs, and every system that needs it re-implements it by hand. This project provides a computable, versioned schedule and an engine that evaluates a patient's FHIR vaccination history against it, with a shared conformance suite across implementations.
-
-[Documentation](https://pacharanero.github.io/greenbook/) · [Source](https://github.com/pacharanero/greenbook)
-
-### Medical Markdown
-
-An early-stage specification, with reference parsers, for writing free-text clinical notes in a lightweight Markdown-like syntax that can be parsed into structured, coded data using standard clinical headings.
-
-[Documentation](https://pacharanero.github.io/medical-markdown/) · [Source](https://github.com/pacharanero/medical-markdown)
-
-### SAFETY.md
-
-A repository-native convention for clinical safety documentation. Like `README.md`, `LICENSE` and `SECURITY.md`, a root `SAFETY.md` puts the information reviewers, clinical safety officers and tools need where they will find it, next to the code, issues and releases that affect patient safety.
-
-[Source](https://github.com/pacharanero/SAFETY.md)
-
-### Clinicians Who Code: The Opinionated Handbook
-
-A practical, opinionated guide for clinicians who want to build healthcare software safely, openly and quickly. Written by a clinician-developer, for clinician-developers.
-
-[Read the handbook](https://pacharanero.github.io/clinicians-who-code-the-opinionated-handbook) · [Source](https://github.com/pacharanero/clinicians-who-code-the-opinionated-handbook)
+[Project page and key facts](muster.md)
 
 ## Not listed here?
 

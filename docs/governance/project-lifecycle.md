@@ -1,5 +1,5 @@
 ---
-description: The lifecycle stages an OHTF Foundation Project moves through, from candidate to archived.
+description: The lifecycle stages an OHTF project moves through, from experimental or candidate to archived.
 ---
 
 # Project lifecycle
@@ -8,6 +8,7 @@ Every OHTF project has an explicit lifecycle status, shown on the [projects page
 
 | Status | Meaning | What you can expect |
 | --- | --- | --- |
+| **Experimental** | Early work started within OHTF, not yet proposed as a Foundation Project. | Not ready for use. It may change completely or stop. |
 | **Candidate** | Proposed or invited, not yet onboarded. | The project is still governed by its original home. |
 | **Incubating** | Accepted and moving under OHTF. Maintainers named; governance files being adopted. | Usable, but interfaces and processes may still change. |
 | **Active** | Fully onboarded and maintained. | Named maintainers, security contact, DCO on contributions, releases following the project's stated versioning. |

@@ -83,10 +83,14 @@ nav:
       - Advisers: about/advisers.md
   - Projects:
       - projects/index.md
-      - oct: projects/oct.md
-      - NHS Number (Python): projects/nhs-number.md
-      - clincalc: projects/clincalc.md
-      - Digital PEWS: projects/digital-pews.md
+      - Foundation Projects:
+          - oct: projects/oct.md
+          - NHS Number (Python): projects/nhs-number.md
+          - clincalc: projects/clincalc.md
+          - Digital PEWS: projects/digital-pews.md
+      - Candidate projects: projects/candidates.md
+      - Experimental:
+          - Muster: projects/muster.md
       - Bring a project: projects/bring-a-project.md
   - Services: services.md
   - Governance:

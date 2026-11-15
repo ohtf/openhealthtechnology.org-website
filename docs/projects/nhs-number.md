@@ -13,7 +13,7 @@ The `nhs-number` Python package validates, normalises, formats and generates NHS
 The NHS Number is how health and care services in England, Wales and the Isle of Man identify a patient, and related ranges do the same in Scotland and Northern Ireland. Almost every piece of NHS software handles one. A wrongly validated or mistyped number can attach information to the wrong person, so the rules for checking one should be implemented once, correctly, and shared.
 
 - **One well-tested implementation** instead of the same checksum and range rules rewritten in every product.
-- **Shared test vectors.** A language-agnostic file of test cases records exactly how the library behaves, so a port in any other language can prove it gives the same answers. The [Rust implementation](index.md#nhs-number-for-rust) is one such port.
+- **Shared test vectors.** A language-agnostic file of test cases records exactly how the library behaves, so a port in any other language can prove it gives the same answers. The [Rust implementation](candidates.md#nhs-number-for-rust) is one such port.
 - **Synthetic numbers for testing.** It can generate valid numbers from ranges set aside for testing, so developers never need to use a real patient's number.
 
 The library was previously hosted by the Faculty of Clinical Informatics. When the Faculty closed, it moved to OHTF, which is part of [why OHTF exists](../about/index.md#origins).

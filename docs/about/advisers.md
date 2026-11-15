@@ -19,6 +19,8 @@ founders:
         page: projects/clincalc/
       - name: Digital PEWS
         page: projects/digital-pews/
+      - name: Muster
+        page: projects/muster/
   - name: Nadia Kuftinoff Baw
     role: Founder and adviser, digital transformation
     photo: assets/advisers/nadia-kuftinoff-baw.jpg
