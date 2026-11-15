@@ -55,6 +55,10 @@ advisers:
     role: Open source and strategic adviser
     affiliation: Head of Digital Services, OOCIO, gov.ie
     photo: assets/advisers/tony-shannon.jpg
+  - name: Dr Akanimoh Osutuk
+    role: Artificial intelligence adviser
+    affiliation: Paediatric trainee
+    photo: assets/advisers/akanimoh-osutuk.jpg
 ---
 
 # Advisers
