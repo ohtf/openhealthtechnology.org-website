@@ -61,3 +61,5 @@ An open-source, LAN-first staff panic alarm for GP practices and other small wor
 ## Not listed here?
 
 If you maintain open-source health software that needs a neutral, long-term home, see [bring a project](bring-a-project.md).
+
+Looking for something worth building? [Awesome Missing NHS Things](../about/awesome-missing-nhs-things.md) lists the software, data and infrastructure that NHS and UK health and care work needs but doesn't have.

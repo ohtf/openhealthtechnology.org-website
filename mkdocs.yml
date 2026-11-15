@@ -79,6 +79,7 @@ nav:
   - About:
       - about/index.md
       - Why OHTF exists: about/why-ohtf.md
+      - Awesome Missing NHS Things: about/awesome-missing-nhs-things.md
       - "Our logo: why we chose the Chamberlen forceps": about/chamberlen-forceps.md
       - Advisers: about/advisers.md
   - Projects:

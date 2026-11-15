@@ -56,4 +56,6 @@ OHTF grew out of practical experience. The `nhs-number` library was previously m
 
 [Why OHTF, rather than an existing foundation?](why-ohtf.md)
 
+[Awesome Missing NHS Things: the list of gaps where several OHTF projects started](awesome-missing-nhs-things.md)
+
 [Our logo: why we chose the Chamberlen forceps](chamberlen-forceps.md)
