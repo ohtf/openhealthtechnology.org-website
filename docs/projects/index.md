@@ -52,11 +52,11 @@ Public, open-source projects proposed or invited to join OHTF and going through 
 
 Early work started within OHTF and not yet proposed as a Foundation Project. Experimental projects are not ready for use and may change completely or stop.
 
-### Muster
+### Panic Button
 
 An open-source, LAN-first staff panic alarm for GP practices and other small workplaces.
 
-[Project page and key facts](muster.md)
+[Project page and key facts](panic-button.md) · [Source](https://github.com/ohtf/panic-button)
 
 ## Not listed here?
 

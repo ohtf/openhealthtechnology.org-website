@@ -90,7 +90,7 @@ nav:
           - Digital PEWS: projects/digital-pews.md
       - Candidate projects: projects/candidates.md
       - Experimental:
-          - Muster: projects/muster.md
+          - Panic Button: projects/panic-button.md
       - Bring a project: projects/bring-a-project.md
   - Services: services.md
   - Governance:

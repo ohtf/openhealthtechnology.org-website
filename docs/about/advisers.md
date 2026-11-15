@@ -19,8 +19,8 @@ founders:
         page: projects/clincalc/
       - name: Digital PEWS
         page: projects/digital-pews/
-      - name: Muster
-        page: projects/muster/
+      - name: Panic Button
+        page: projects/panic-button/
   - name: Nadia Kuftinoff Baw
     role: Founder and adviser, digital transformation
     photo: assets/advisers/nadia-kuftinoff-baw.jpg
