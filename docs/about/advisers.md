@@ -59,6 +59,10 @@ advisers:
     role: Artificial intelligence adviser
     affiliation: Paediatric trainee
     photo: assets/advisers/akanimoh-osutuk.jpg
+  - name: Prof Niina Kolehmainen
+    role: Adviser in child health
+    affiliation: Professor of Child Health, University of Leeds
+    photo: assets/advisers/niina-kolehmainen.jpg
 ---
 
 # Advisers
