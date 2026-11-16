@@ -48,6 +48,10 @@ advisers:
   - name: Adrian Byrne
     ohtf_role: Former NHS CIO, Adviser
     photo: assets/advisers/adrian-byrne.jpg
+  - name: Oli Evans
+    affiliation: Research Fellow, UCL IIPP
+    ohtf_role: Infrastructure and data adviser
+    photo: assets/advisers/oli-evans.jpg
   - name: Prof Niina Kolehmainen
     ohtf_role: Adviser in child health
     affiliation: Professor of Child Health, University of Leeds
