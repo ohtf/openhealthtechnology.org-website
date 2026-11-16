@@ -60,6 +60,10 @@ advisers:
     ohtf_role: Artificial intelligence adviser
     affiliation: Paediatric trainee
     photo: assets/advisers/akanimoh-osutuk.jpg
+  - name: Dr Ayesha Rahim
+    affiliation: Consultant psychiatrist
+    ohtf_role: Clinical adviser
+    photo: assets/advisers/ayesha-rahim.jpg
   - name: Dr Tony Shannon
     ohtf_role: Open source and strategic adviser
     affiliation: Head of Digital Services, OOCIO, gov.ie
