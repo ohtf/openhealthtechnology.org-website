@@ -78,6 +78,10 @@ advisers:
     ohtf_role: Open source and strategic adviser
     affiliation: Head of Digital Services, OOCIO, gov.ie
     photo: assets/advisers/tony-shannon.jpg
+  - name: Juhan Sonin
+    affiliation: Director, GoInvo
+    ohtf_role: Open source adviser
+    photo: assets/advisers/juhan-sonin.jpg
   - name: Theo Vararu
     ohtf_role: Engineering and open source adviser
     photo: assets/advisers/theo-vararu.jpg
