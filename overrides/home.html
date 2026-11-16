@@ -48,8 +48,9 @@
   </section>
 {% endblock %}
 
-{#- No sidebars on the landing page. -#}
-{% block site_nav %}{% endblock %}
+{#- The navigation sidebar is kept, because on phones and tablets it is the
+    menu drawer. extra.css hides it on wide screens, where the tabs replace
+    it. Do not empty the site_nav block or add `hide: navigation`. -#}
 
 {#- Same as base.html's container, minus the skip anchor (it sits in the hero
     above) and with a hook class for the landing-page styles. -#}

@@ -3,7 +3,6 @@ template: home.html
 title: Open Health Technology Foundation
 description: A neutral, long-term home for open-source health technology.
 hide:
-  - navigation
   - toc
 hero:
   eyebrow: Open Health Technology Foundation

@@ -488,3 +488,18 @@
 [data-md-color-scheme="slate"] .md-typeset img.ohtf-logo-figure {
   filter: brightness(0) invert(0.86);
 }
+
+/* Landing page: keep the navigation sidebar in the page so the phone and
+   tablet menu drawer works, but hide it on wide screens, where the
+   navigation tabs replace it (overrides/home.html). */
+@media screen and (min-width: 76.25em) {
+  .md-main__inner:has(> .md-content.ohtf-home) > .md-sidebar--primary {
+    display: none;
+  }
+
+  /* The theme widens the content margin whenever a sidebar is present,
+     even a hidden one; keep the landing page aligned with the hero. */
+  .md-main__inner > .md-sidebar--primary ~ .md-content.ohtf-home > .md-content__inner {
+    margin-left: 0.8rem;
+  }
+}
