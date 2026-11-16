@@ -33,6 +33,12 @@ advisers:
     photo: assets/advisers/mark-bailey.jpg
     core_teams:
       - name: Turva
+  - name: Dr Mike Bainbridge
+    affiliation: Retired GP
+    ohtf_role: Clinical adviser
+    photo: assets/advisers/mike-bainbridge.jpg
+    core_teams:
+      - name: CUI
   - name: Michael Barton
     ohtf_role: Technical adviser
     photo: assets/advisers/michael-barton.jpg
