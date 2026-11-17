@@ -20,10 +20,9 @@ The test we apply is simple: if a reasonable member of the public, a contributor
 
 ## What we publish
 
-Companies House requires a CIC to file annual accounts, and the CIC Regulator requires an annual community interest report. We publish both, and go further:
+Companies House requires a CIC to file annual accounts, and the CIC Regulator requires an annual community interest report. We publish both here as well as filing them, and go further:
 
 - **Finances.** Income and where it comes from, what we spend it on, and how service income funds maintenance of the open projects.
-- **Directors and related parties.** Who the directors are, what, if anything, they are paid, and any transactions between OHTF and organisations connected to its directors.
 - **Decisions.** Summaries of board decisions, except where they concern individuals' personal matters or confidential negotiations.
 - **Operations.** For hosted services: availability, incidents and how they were resolved.
 

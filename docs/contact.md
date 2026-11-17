@@ -24,7 +24,7 @@ Open an issue on that project's repository. The [projects page](projects/index.m
 
 ## Proposing a project
 
-Read [bring a project](projects/bring-a-project.md), then start a discussion on [GitHub](https://github.com/orgs/ohtf/discussions), or email us if you would rather talk privately first.
+Read [bring a project](projects/bring-a-project.md), then post a new topic in the [OHTF category on Open Health Hub](https://openhealthhub.org/c/ohtf/64), or email us if you would rather talk privately first.
 
 ## Security vulnerabilities
 

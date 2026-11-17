@@ -33,7 +33,7 @@ A good candidate is:
 
 ## How to propose a project
 
-Start a conversation in the open: [open a discussion on GitHub](https://github.com/orgs/ohtf/discussions) with:
+Start a conversation in the open: [post a new topic in the OHTF category on Open Health Hub](https://openhealthhub.org/c/ohtf/64), including:
 
 1. The project name and a link to its repository.
 2. What it does, and who uses it today.

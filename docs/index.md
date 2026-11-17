@@ -9,8 +9,8 @@ hero:
   title: A neutral, long-term home for open-source health software
   lead: >-
     OHTF stewards the open-source software that health care runs on:
-    clinical terminologies, identifier and terminology tooling, clinical
-    calculators and health records. Open code, named maintainers, and an
+    clinical terminology, NHS Number libraries, clinical calculators and
+    observation charts. Open code, named maintainers, and an
     organisation that outlasts any one employer.
   actions:
     - label: See the projects
