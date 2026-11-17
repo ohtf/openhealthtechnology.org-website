@@ -1,0 +1,18 @@
+{#-
+  SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
+  SPDX-License-Identifier: CC-BY-SA-4.0
+
+  Header and menu-drawer link to the website repository. Same markup as the
+  theme's partials/source.html, minus data-md-component="source": that
+  attribute makes the theme's JavaScript call the GitHub API for star, fork
+  and latest-release counts. We only want a plain link back to the repo.
+-#}
+<a href="{{ config.repo_url }}" title="{{ lang.t('source') }}" class="md-source">
+  <div class="md-source__icon md-icon">
+    {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
+    {% include ".icons/" ~ icon ~ ".svg" %}
+  </div>
+  <div class="md-source__repository">
+    {{ config.repo_name }}
+  </div>
+</a>

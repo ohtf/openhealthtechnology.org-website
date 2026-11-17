@@ -37,6 +37,7 @@ It is not the planning or governance working repository for OHTF, and it holds n
 | `docs/assets/ohtf-mark.svg` | The forceps mark alone in Surgical Green, for larger uses on light backgrounds. |
 | `docs/CNAME` | Custom domain for GitHub Pages. |
 | `overrides/home.html` | Landing-page template. |
+| `overrides/partials/source.html` | Header link to this repository, without the theme's GitHub star, fork and release counts (which call the GitHub API). |
 | `docs/about/advisers.md` | Advisers page. Each adviser (name with any title, role, photo) is an entry in its `advisers:` front matter, rendered by `overrides/advisers.html`. |
 | `docs/assets/advisers/` | Adviser headshots, made with `s/headshot`. |
 | `s/` | Repeated tasks: `s/docs` (serve), `s/build` (build), `s/check-docs-nav` (nav orphan check), `s/headshot` (prepare an adviser photo). |
