@@ -48,6 +48,10 @@ advisers:
   - name: Adrian Byrne
     ohtf_role: Former NHS CIO, Adviser
     photo: assets/advisers/adrian-byrne.jpg
+  - name: Dr Anne Marie Cunningham
+    affiliation: GP, RCGP Clinical Lead for Data and Digital
+    ohtf_role: Clinical and NHS IT adviser
+    photo: assets/advisers/anne-marie-cunningham.jpg
   - name: Oli Evans
     affiliation: Research Fellow, UCL IIPP
     ohtf_role: Infrastructure and data adviser
