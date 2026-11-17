@@ -26,6 +26,7 @@ on:
       - "overrides/**"
       - "mkdocs.yml"
       - "requirements.txt"
+      - "s/build"
       - ".github/workflows/docs.yml"
   workflow_dispatch:
 
@@ -55,7 +56,7 @@ jobs:
           restore-keys: |
             zensical-
       - run: pip install -r requirements.txt
-      - run: zensical build --clean
+      - run: s/build --strict
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: site

@@ -13,4 +13,12 @@ else
   ZENSICAL=zensical
 fi
 
-exec "$ZENSICAL" build --clean "$@"
+"$ZENSICAL" build --clean "$@"
+
+# Zensical excludes dot directories; publish these protocol JSON endpoints
+# explicitly rather than relying on unsupported MkDocs include_docs settings.
+install -d site/.well-known/matrix
+for endpoint in client server; do
+  python3 -m json.tool "docs/.well-known/matrix/$endpoint" >/dev/null
+  install -m 644 "docs/.well-known/matrix/$endpoint" "site/.well-known/matrix/$endpoint"
+done
