@@ -86,6 +86,11 @@ advisers:
     affiliation: Director, GoInvo
     ohtf_role: Open source adviser
     photo: assets/advisers/juhan-sonin.jpg
+  - name: Dr Grant Vallance
+    ohtf_role: Technical and ethical adviser
+    photo: assets/advisers/grant-vallance.jpg
+    core_teams:
+      - name: Turva
   - name: Theo Vararu
     ohtf_role: Engineering and open source adviser
     photo: assets/advisers/theo-vararu.jpg
