@@ -27,6 +27,10 @@ founders:
     ohtf_role: Founder and adviser, digital transformation
     photo: assets/advisers/nadia-kuftinoff-baw.jpg
 advisers:
+  - name: Dr Lia Ali
+    affiliation: Consultant psychiatrist
+    ohtf_role: Clinical adviser
+    photo: assets/advisers/lia-ali.jpg
   - name: Dr Mark Bailey
     ohtf_role: Clinical adviser
     affiliation: Consultant physician
