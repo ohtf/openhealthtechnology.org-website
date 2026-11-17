@@ -35,13 +35,16 @@ It is not the planning or governance working repository for OHTF, and it holds n
 | `docs/stylesheets/extra.css` | Brand colour tokens and landing-page styles. |
 | `docs/assets/ohtf-avatar.svg` | OHTF forceps mark in a Surgical Green circle: the header logo, the favicon and the GitHub org profile image. |
 | `docs/assets/ohtf-mark.svg` | The forceps mark alone in Surgical Green, for larger uses on light backgrounds. |
+| `docs/assets/social-card.png` | 1200x630 social preview image, rendered from `design/social-card.html` by `s/brand-images`. |
+| `docs/assets/apple-touch-icon.png`, `docs/assets/favicon-32.png` | PNG icons for phones and browsers that cannot use the SVG favicon, made by `s/brand-images`. |
 | `docs/CNAME` | Custom domain for GitHub Pages. |
 | `docs/.well-known/matrix/` | Matrix client/federation discovery JSON, explicitly copied into the build by `s/build` because Zensical excludes dot directories. These are protocol endpoints, not navigation pages. |
+| `overrides/main.html` | Adds social preview tags and PNG icon links to every page. |
 | `overrides/home.html` | Landing-page template. |
 | `overrides/partials/source.html` | Header link to this repository, without the theme's GitHub star, fork and release counts (which call the GitHub API). |
 | `docs/about/advisers.md` | Advisers page. Each adviser (name with any title, role, photo) is an entry in its `advisers:` front matter, rendered by `overrides/advisers.html`. |
 | `docs/assets/advisers/` | Adviser headshots, made with `s/headshot`. |
-| `s/` | Repeated tasks: `s/docs` (serve), `s/build` (build), `s/check-docs-nav` (nav orphan check), `s/headshot` (prepare an adviser photo). |
+| `s/` | Repeated tasks: `s/docs` (serve), `s/build` (build), `s/check-docs-nav` (nav orphan check), `s/headshot` (prepare an adviser photo), `s/brand-images` (regenerate the social preview image and PNG icons). |
 
 ## Checks
 

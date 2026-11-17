@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+# SPDX-FileCopyrightText: 2026 Open Health Technology Foundation contributors
+# SPDX-License-Identifier: CC-BY-SA-4.0
+#
+# Regenerate the raster brand images from their sources:
+#
+#   docs/assets/social-card.png       1200x630 social preview, from design/social-card.html
+#   docs/assets/apple-touch-icon.png  180x180 home-screen icon, from docs/assets/ohtf-avatar.svg
+#   docs/assets/favicon-32.png        32x32 fallback favicon, from the same SVG
+#
+# Needs chromium (with network access, for the Inter web font),
+# rsvg-convert and ImageMagick. Check the results before committing.
+set -euo pipefail
+cd "$(dirname "$0")/.."
+tmp=$(mktemp -d)
+trap 'rm -rf "$tmp"' EXIT
+
+chromium --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
+  --window-size=1200,630 --virtual-time-budget=10000 \
+  --screenshot="$tmp/card.png" "file://$PWD/design/social-card.html" >/dev/null 2>&1
+magick "$tmp/card.png" -crop 1200x630+0+0 +repage -strip PNG24:docs/assets/social-card.png
+
+# The avatar is a circle; iOS masks icons itself, so the touch icon is a
+# full-bleed Surgical Green square with the mark centred.
+rsvg-convert -w 150 -h 150 docs/assets/ohtf-avatar.svg -o "$tmp/avatar.png"
+magick -size 180x180 xc:'#0D4A3B' "$tmp/avatar.png" -gravity center -composite \
+  -strip PNG24:docs/assets/apple-touch-icon.png
+rsvg-convert -w 32 -h 32 docs/assets/ohtf-avatar.svg -o "$tmp/fav.png"
+magick "$tmp/fav.png" -strip docs/assets/favicon-32.png
+
+ls -l docs/assets/social-card.png docs/assets/apple-touch-icon.png docs/assets/favicon-32.png
