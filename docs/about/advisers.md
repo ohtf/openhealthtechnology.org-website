@@ -78,6 +78,12 @@ advisers:
     ohtf_role: Artificial intelligence adviser
     affiliation: Paediatric trainee
     photo: assets/advisers/akanimoh-osutuk.jpg
+  - name: Laura Piñero Roig
+    affiliation: Medical student, MedikQuantis creator
+    photo: assets/advisers/laura-pinero-roig.jpg
+    core_teams:
+      - name: clincalc
+        page: projects/clincalc/
   - name: Dr Ayesha Rahim
     affiliation: Consultant psychiatrist
     ohtf_role: Clinical adviser

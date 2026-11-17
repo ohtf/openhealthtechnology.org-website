@@ -58,6 +58,7 @@ Why is all this public? See [why we publish so much](../transparency/why-we-publ
 The people who look after this project day to day:
 
 - [Dr Marcus Baw](../about/advisers.md) (maintainer)
+- [Laura Piñero Roig](../about/advisers.md)
 
 ## Get involved
 
