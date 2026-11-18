@@ -88,6 +88,10 @@ advisers:
     affiliation: Consultant psychiatrist
     ohtf_role: Clinical adviser
     photo: assets/advisers/ayesha-rahim.jpg
+  - name: Jonny Rylands
+    affiliation: Technical architect and software developer
+    ohtf_role: GP IT adviser
+    photo: assets/advisers/jonny-rylands.jpg
   - name: Dr Tony Shannon
     ohtf_role: Open source and strategic adviser
     affiliation: Head of Digital Services, OOCIO, gov.ie
