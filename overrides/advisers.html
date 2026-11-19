@@ -6,7 +6,8 @@
   Founders grid from the `founders:` front matter and an Advisers grid from
   the `advisers:` front matter of docs/about/advisers.md. Each entry has
   `name` (including any title), an optional `affiliation` (their main job
-  or post elsewhere, shown first), an optional `ohtf_role` (their role with OHTF) and
+  or post elsewhere, shown first) with an optional `affiliation_link` of
+  `text` and `url` that links that text within the affiliation, an optional `ohtf_role` (their role with OHTF) and
   `photo` (a site-root path such as
   assets/advisers/jane-smith.jpg, made with s/headshot), and optionally
   `core_teams`, a list of `name` and optional `page` (for example
@@ -32,7 +33,15 @@
         >
         <h3 class="ohtf-adviser__name">{{ person.name }}</h3>
         {% if person.affiliation %}
-          <p class="ohtf-adviser__affiliation">{{ person.affiliation }}</p>
+          {% set link = person.affiliation_link %}
+          {% set parts = (person.affiliation | split(link.text, 1) | list) if link else [person.affiliation] %}
+          <p class="ohtf-adviser__affiliation">
+            {%- if parts | length == 2 -%}
+              {{ parts[0] }}<a href="{{ link.url }}">{{ link.text }}</a>{{ parts[1] }}
+            {%- else -%}
+              {{ person.affiliation }}
+            {%- endif -%}
+          </p>
         {% endif %}
         {% if person.ohtf_role %}
           <p class="ohtf-adviser__role">{{ person.ohtf_role }}</p>

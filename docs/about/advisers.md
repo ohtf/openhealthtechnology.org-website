@@ -54,6 +54,9 @@ advisers:
     photo: assets/advisers/adrian-byrne.jpg
   - name: Christian Chevalley
     affiliation: Creator of EtherCIS CDR
+    affiliation_link:
+      text: EtherCIS
+      url: https://github.com/ethercis/ethercis
     ohtf_role: Health data infrastructure adviser
     photo: assets/advisers/christian-chevalley.jpg
   - name: Dr Anne Marie Cunningham
@@ -84,6 +87,9 @@ advisers:
     photo: assets/advisers/akanimoh-osutuk.jpg
   - name: Laura Piñero Roig
     affiliation: Medical student, MedikQuantis creator
+    affiliation_link:
+      text: MedikQuantis
+      url: https://medikquantis.me/
     photo: assets/advisers/laura-pinero-roig.jpg
     core_teams:
       - name: clincalc
