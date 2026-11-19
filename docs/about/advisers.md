@@ -52,6 +52,10 @@ advisers:
   - name: Adrian Byrne
     ohtf_role: Former NHS CIO, Adviser
     photo: assets/advisers/adrian-byrne.jpg
+  - name: Christian Chevalley
+    affiliation: Creator of EtherCIS CDR
+    ohtf_role: Health data infrastructure adviser
+    photo: assets/advisers/christian-chevalley.jpg
   - name: Dr Anne Marie Cunningham
     affiliation: GP, RCGP Clinical Lead for Data and Digital
     ohtf_role: Clinical and NHS IT adviser
