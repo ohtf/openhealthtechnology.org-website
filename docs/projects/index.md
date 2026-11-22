@@ -18,13 +18,13 @@ An open, community-owned clinical terminology, developed clean-room from contrib
 
 [Project page and key facts](oct.md) · [Website](https://openterminology.org/) · [Source](https://github.com/ohtf/oct)
 
-### NHS Number (Python)
+### NHS Number
 
-The `nhs-number` Python package validates, normalises, formats and generates NHS Numbers (including the Scottish CHI and Northern Irish H&C ranges), with region checks. A shared, language-agnostic set of test vectors lets any port to another language prove it gives the same answers.
+Libraries that validate and normalise NHS Numbers, including the Scottish CHI and Northern Irish H&C ranges, with region checks: the `nhs-number` Python package, which also formats and generates numbers, and `@ohtf/nhs-number-js` for JavaScript and TypeScript. Both pass the same language-agnostic set of test vectors, which any port to another language can use to prove it gives the same answers.
 
 **Status:** Incubating.
 
-[Project page and key facts](nhs-number.md) · [Documentation](https://ohtf.github.io/nhs-number-py/) · [Source](https://github.com/ohtf/nhs-number-py) · [PyPI](https://pypi.org/project/nhs-number/)
+[Project page and key facts](nhs-number.md) · [Python documentation](https://ohtf.github.io/nhs-number-py/) · [Python source](https://github.com/ohtf/nhs-number-py) · [PyPI](https://pypi.org/project/nhs-number/) · [JavaScript source](https://github.com/ohtf/nhs-number-js)
 
 ### clincalc
 

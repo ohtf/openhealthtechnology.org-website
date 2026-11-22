@@ -86,7 +86,7 @@ nav:
       - projects/index.md
       - Foundation Projects:
           - oct: projects/oct.md
-          - NHS Number (Python): projects/nhs-number.md
+          - NHS Number: projects/nhs-number.md
           - clincalc: projects/clincalc.md
           - Digital PEWS: projects/digital-pews.md
       - Candidate projects: projects/candidates.md
