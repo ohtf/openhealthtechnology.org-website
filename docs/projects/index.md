@@ -24,7 +24,7 @@ Libraries that validate and normalise NHS Numbers, including the Scottish CHI an
 
 **Status:** Incubating.
 
-[Project page and key facts](nhs-number.md) · [Python documentation](https://ohtf.github.io/nhs-number-py/) · [Python source](https://github.com/ohtf/nhs-number-py) · [PyPI](https://pypi.org/project/nhs-number/) · [JavaScript source](https://github.com/ohtf/nhs-number-js)
+[Project page and key facts](nhs-number.md) · [Python documentation](https://ohtf.github.io/nhs-number-py/) · [Python source](https://github.com/ohtf/nhs-number-py) · [PyPI](https://pypi.org/project/nhs-number/) · [JavaScript source](https://github.com/ohtf/nhs-number-js) · [npm](https://www.npmjs.com/package/@ohtf/nhs-number-js)
 
 ### clincalc
 

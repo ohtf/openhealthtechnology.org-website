@@ -4,12 +4,15 @@ description: NHS Number libraries for Python and JavaScript - validate, normalis
 
 # NHS Number
 
-OHTF's NHS Number libraries validate and normalise NHS Numbers, including the Scottish CHI and Northern Irish H&C ranges, and check which region a number belongs to. There are two packages, which give the same answers because both are tested against one shared set of test vectors:
+OHTF's NHS Number libraries validate and normalise NHS Numbers, including the Scottish CHI and Northern Irish H&C ranges, and check which region a number belongs to. There are two packages, which give the same answers because both are tested against one shared set of test vectors.
 
-- **Python:** the `nhs-number` package, which also formats numbers and generates synthetic ones for testing.
-- **JavaScript and TypeScript:** `@ohtf/nhs-number-js`, for browser and Node.js applications.
+**Python:** the `nhs-number` package on PyPI, which also formats numbers and generates synthetic ones for testing.
 
-[Python documentation](https://ohtf.github.io/nhs-number-py/){ .md-button .md-button--primary } [Python source](https://github.com/ohtf/nhs-number-py){ .md-button } [PyPI](https://pypi.org/project/nhs-number/){ .md-button } [JavaScript source](https://github.com/ohtf/nhs-number-js){ .md-button }
+[PyPI](https://pypi.org/project/nhs-number/){ .md-button .md-button--primary } [Documentation](https://ohtf.github.io/nhs-number-py/){ .md-button } [Source](https://github.com/ohtf/nhs-number-py){ .md-button }
+
+**JavaScript and TypeScript:** the `@ohtf/nhs-number-js` package on npm, for browser and Node.js applications.
+
+[npm](https://www.npmjs.com/package/@ohtf/nhs-number-js){ .md-button .md-button--primary } [Source](https://github.com/ohtf/nhs-number-js){ .md-button }
 
 ## Why it matters
 
@@ -38,7 +41,7 @@ False
 
 Output from version 3.0.0, installed from PyPI.
 
-JavaScript:
+JavaScript, after `npm install @ohtf/nhs-number-js`:
 
 ```js
 import { isValid, regionOf, standardiseFormat } from '@ohtf/nhs-number-js';
@@ -49,7 +52,7 @@ regionOf('943 476 5919');       // 'SYNTHETIC'
 standardiseFormat('943-476-5919'); // '9434765919'
 ```
 
-Output from version 0.1.0, built from source.
+Output from version 0.1.0, installed from npm.
 
 ## Key facts
 
@@ -65,6 +68,7 @@ Output from version 0.1.0, built from source.
 | Clinical Safety Officer | Not applicable to the library on its own; systems that use it assess it within their own clinical safety case |
 | Medical device | No assessment recorded. It checks and formats identifiers and makes no clinical calculation or recommendation. |
 | Clinical safety documentation | None; the published test vectors are the evidence of its behaviour |
+| Package | [`nhs-number` on PyPI](https://pypi.org/project/nhs-number/) |
 | Source | [github.com/ohtf/nhs-number-py](https://github.com/ohtf/nhs-number-py) |
 | Documentation | [ohtf.github.io/nhs-number-py](https://ohtf.github.io/nhs-number-py/) |
 
@@ -73,13 +77,14 @@ Output from version 0.1.0, built from source.
 | | |
 | --- | --- |
 | Lifecycle status | Part of the same Foundation Project, [Incubating](../governance/project-lifecycle.md) |
-| Current version | 0.1.0, early development. Not published to npm; install from the source repository. |
+| Current version | 0.1.0, published on [npm](https://www.npmjs.com/package/@ohtf/nhs-number-js) as `@ohtf/nhs-number-js`. Early development, so its interface may still change. |
 | Runs on | Node.js 22.13 and later, and browsers through a bundler. No runtime dependencies. |
 | Licence | MIT for code; documentation CC BY-SA 4.0 |
 | Authors | Marcus Baw, building on the Python library |
 | Clinical Safety Officer | Not applicable to the library on its own; systems that use it assess it within their own clinical safety case |
 | Medical device | Preliminary assessment: standalone format and checksum validation has no diagnostic or therapeutic purpose. Not yet signed off. |
 | Clinical safety documentation | [`SAFETY.md`](https://github.com/ohtf/nhs-number-js/blob/main/SAFETY.md), with its hazards and mitigations. Not approved for live patient workflows. |
+| Package | [`@ohtf/nhs-number-js` on npm](https://www.npmjs.com/package/@ohtf/nhs-number-js) |
 | Source | [github.com/ohtf/nhs-number-js](https://github.com/ohtf/nhs-number-js) |
 | Documentation | The repository [README](https://github.com/ohtf/nhs-number-js#readme) and [validation contract](https://github.com/ohtf/nhs-number-js/blob/main/spec/standard.md) |
 
