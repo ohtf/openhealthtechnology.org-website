@@ -15,7 +15,7 @@ It is an OHTF Foundation Project. The work began at the Royal College of Paediat
 
 [Contact the Digital PEWS team](mailto:pews@openhealthtechnology.org?subject=Digital%20PEWS%20support){ .md-button .md-button--primary } [View the demo](https://ohtf.github.io/digital-pews/demo){ .md-button } [Source code](https://github.com/ohtf/digital-pews){ .md-button }
 
-## Why it matters
+## The same chart in every EPR
 
 The National Paediatric Early Warning System (NPEWS) gives NHS hospitals one shared way of recording a child's observations and recognising when they are becoming seriously unwell. A common chart only helps if it looks and scores the same wherever a child is cared for, yet each EPR supplier builds its own version, or a trust falls back on paper.
 

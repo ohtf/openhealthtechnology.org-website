@@ -14,7 +14,7 @@ OHTF's NHS Number libraries validate and normalise NHS Numbers, including the Sc
 
 [npm](https://www.npmjs.com/package/@ohtf/nhs-number-js){ .md-button .md-button--primary } [Source](https://github.com/ohtf/nhs-number-js){ .md-button }
 
-## Why it matters
+## Checking NHS Numbers once, correctly
 
 The NHS Number is how health and care services in England, Wales and the Isle of Man identify a patient, and related ranges do the same in Scotland and Northern Ireland. Almost every piece of NHS software handles one. A wrongly validated or mistyped number can attach information to the wrong person, so the rules for checking one should be implemented once, correctly, and shared.
 

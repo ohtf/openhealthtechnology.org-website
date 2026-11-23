@@ -8,7 +8,7 @@ description: clincalc - open, community-auditable clinical calculators from a si
 
 [Read the documentation](https://ohtf.github.io/clincalc/){ .md-button .md-button--primary } [Source](https://github.com/ohtf/clincalc){ .md-button } [Calculator catalogue](https://ohtf.github.io/clincalc/calculators/){ .md-button }
 
-## Why it matters
+## One checked version of each clinical score
 
 Clinical scores such as CURB-65, CHA₂DS₂-VASc or the Glasgow Coma Scale are rebuilt separately inside many different products. Each rebuild is a chance for a small error, an outdated threshold or an untraceable source, and a clinician has no easy way to tell which product got it right.
 

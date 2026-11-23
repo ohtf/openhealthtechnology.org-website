@@ -8,7 +8,7 @@ Panic Button is an open-source staff panic alarm for GP practices and other smal
 
 Panic Button is an experimental project: it is in early development and not yet suitable for use.
 
-## Why it matters
+## An alarm that proves it works
 
 Staff in GP practices sometimes face violence or aggression, and an on-screen panic alarm is often the quickest way to call colleagues. An alarm is only useful if it works when it is needed, and the person pressing it needs to know whether help is coming. Panic Button is designed around that:
 

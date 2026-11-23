@@ -8,7 +8,7 @@ description: oct, the Open Clinical Terminology - an open, community-owned clini
 
 [Read the documentation](https://openterminology.org/){ .md-button .md-button--primary } [Source](https://github.com/ohtf/oct){ .md-button } [Discussion](https://openhealthhub.org/c/oct/58){ .md-button }
 
-## Why it matters
+## An open vocabulary for clinical records
 
 Every clinical record system needs a terminology, a common vocabulary that lets a diagnosis, a symptom or a procedure mean the same thing everywhere it is recorded. The terminologies health systems rely on today are not open and free to use without restrictions, which limits who can build with them and how.
 
